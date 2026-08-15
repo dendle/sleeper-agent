@@ -1,0 +1,44 @@
+{
+  "user_id": "1160282581892685824",
+  "username": "rainmannfl",
+  "roster_id": 10,
+  "draft_slot": 9,
+  "league_id": "1317862186214780928",
+  "starters": [
+    {"id": "4984", "name": "Josh Allen", "pos": "QB", "team": "BUF", "age": 30, "role": "QB1"},
+    {"id": "8155", "name": "Breece Hall", "pos": "RB", "team": "NYJ", "age": 25, "role": "RB1"},
+    {"id": "5892", "name": "David Montgomery", "pos": "RB", "team": "HOU", "age": 29, "role": "RB2"},
+    {"id": "5947", "name": "Jakobi Meyers", "pos": "WR", "team": "JAX", "age": 29, "role": "WR1"},
+    {"id": "6819", "name": "Michael Pittman", "pos": "WR", "team": "PIT", "age": 28, "role": "WR2"},
+    {"id": "8130", "name": "Trey McBride", "pos": "TE", "team": "ARI", "age": 26, "role": "TE"},
+    {"id": "7588", "name": "Javonte Williams", "pos": "RB", "team": "DAL", "age": 26, "role": "FLEX"},
+    {"id": "9754", "name": "Quentin Johnston", "pos": "WR", "team": "LAC", "age": 24, "role": "FLEX"},
+    {"id": "3163", "name": "Jared Goff", "pos": "QB", "team": "DET", "age": 31, "role": "SUPER_FLEX"}
+  ],
+  "bench": [
+    {"id": "8146", "name": "Garrett Wilson", "pos": "WR", "team": "NYJ", "age": 25},
+    {"id": "8110", "name": "Jake Ferguson", "pos": "TE", "team": "DAL", "age": 27},
+    {"id": "7049", "name": "Jauan Jennings", "pos": "WR", "team": "MIN", "age": 29},
+    {"id": "4950", "name": "Christian Kirk", "pos": "WR", "team": "SF", "age": 29},
+    {"id": "11624", "name": "Xavier Worthy", "pos": "WR", "team": "KC", "age": 23},
+    {"id": "11579", "name": "Audric Estime", "pos": "RB", "team": "NO", "age": 22},
+    {"id": "12504", "name": "Kaleb Johnson", "pos": "RB", "team": "PIT", "age": 22},
+    {"id": "12509", "name": "Tre' Harris", "pos": "WR", "team": "LAC", "age": 24},
+    {"id": "1166", "name": "Kirk Cousins", "pos": "QB", "team": "LV", "age": 37},
+    {"id": "10866", "name": "Aidan O'Connell", "pos": "QB", "team": "LV", "age": 27, "years_exp": 3, "note": "Resolved 2026-08-14 via full /players/nfl dump. This is the 5th/6th QB referenced in draft_needs below (Allen, Goff, Cousins, Rattler, O'Connell)."}
+  ],
+  "_note_2026_07_22": "James Conner (4137) and Tucker Kraft (9484) were previously listed in both bench and reserve here; confirmed via live roster fetch they are reserve-only (IR). Removed from bench to avoid double-counting. Draft still paused at pick 6 (unchanged since 2026-07-16). Roster otherwise matches live data.",
+  "_refreshed_2026_08_14": "Live GET /league/1317862186214780928/rosters confirmed roster_id 10 (starters/bench/taxi/reserve) is byte-for-byte unchanged from this cache — same starters, same bench (now with 10866 resolved), same taxi (Rattler/Baker), same reserve (Bowers/Conner/Kraft). No transactions since last refresh.",
+  "taxi": [
+    {"id": "11562", "name": "Spencer Rattler", "pos": "QB", "team": "NO", "age": 25},
+    {"id": "11645", "name": "Javon Baker", "pos": "WR", "team": null, "age": null}
+  ],
+  "reserve": [
+    {"id": "11604", "name": "Brock Bowers", "pos": "TE", "team": "LV", "age": 23, "rank": 20, "note": "ELITE - rank 20 overall dynasty"},
+    {"id": "4137", "name": "James Conner", "pos": "RB", "team": "ARI", "age": 31},
+    {"id": "9484", "name": "Tucker Kraft", "pos": "TE", "team": "GB", "age": 25}
+  ],
+  "strengths": ["QB (Josh Allen elite)", "TE (Brock Bowers rank 20 + Trey McBride)", "RB youth (Breece Hall, Javonte, Kaleb Johnson)"],
+  "weaknesses": ["Aging WRs (Meyers 29, Kirk 29, Jennings 29)", "RB depth (Conner 31, Montgomery 29 declining)", "Too many QBs on roster"],
+  "draft_needs": ["WR youth", "RB youth", "NOT QB", "NOT TE"]
+}

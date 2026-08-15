@@ -1,0 +1,23 @@
+{
+  "source": "Sleeper API search_rank field, retrieved 2026-07-16",
+  "note": "search_rank = overall dynasty player rank. Draft room RK column may differ slightly.",
+  "taken": [
+    {"pick": 1, "id": "13287", "name": "Jeremiyah Love", "pos": "RB", "team": "ARI", "rank": 15, "depth": 1},
+    {"pick": 2, "id": "13269", "name": "Fernando Mendoza", "pos": "QB", "team": "LV", "rank": 39, "depth": 1},
+    {"pick": 3, "id": "13279", "name": "Carnell Tate", "pos": "WR", "team": "TEN", "rank": 61, "depth": 1},
+    {"pick": 5, "id": "13286", "name": "Jadarian Price", "pos": "RB", "team": "SEA", "rank": 63, "depth": 1},
+    {"pick": 4, "id": "13281", "name": "Jordyn Tyson", "pos": "WR", "team": "NO", "rank": 69, "depth": 2}
+  ],
+  "available_ranked": [
+    {"id": "13294", "name": "Makai Lemon", "pos": "WR", "team": "PHI", "rank": 77, "depth": 2, "note": "PHI WR2, high upside"},
+    {"id": "13330", "name": "Kenyon Sadiq", "pos": "TE", "team": "NYJ", "rank": 109, "depth": 1, "note": "TE1 at NYJ"},
+    {"id": "13337", "name": "Emmett Johnson", "pos": "RB", "team": "KC", "rank": 113, "depth": 3},
+    {"id": "13298", "name": "KC Concepcion", "pos": "WR", "team": "CLE", "rank": 116, "depth": 1, "note": "WR1 at CLE"},
+    {"id": "13345", "name": "Jonah Coleman", "pos": "RB", "team": "DEN", "rank": 118, "depth": 3},
+    {"id": "13305", "name": "Mike Washington", "pos": "RB", "team": "LV", "rank": 139, "depth": 2},
+    {"id": "13349", "name": "Eli Stowers", "pos": "TE", "team": "PHI", "rank": 140, "depth": 2},
+    {"id": "13275", "name": "Ty Simpson", "pos": "QB", "team": "LAR", "rank": 141, "depth": 2},
+    {"id": "13276", "name": "Omar Cooper", "pos": "WR", "team": "NYJ", "rank": 999, "note": "Draft room projects as pick 9 - ADP ~95 in draft room"},
+    {"id": "13274", "name": "Germie Bernard", "pos": "WR", "team": "PIT", "rank": 194}
+  ]
+}
