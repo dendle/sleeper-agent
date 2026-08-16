@@ -7,6 +7,9 @@
 - **User:** rainmannfl | **User ID:** `1160282581892685824` | **Roster ID:** 10 | **Draft Slot:** 9
 - **Season:** 2026
 
+## Strategy
+`strategy.md` in this folder is the CURRENT team strategy (last-updated date + TLDR + detail). Read it before making any decision — draft pick, trade, waiver claim, or lineup call — it is the decision framework. It only ever contains current strategy: update it in place on significant events (draft picks affecting our board, trade outcomes/offers, material injuries, phase changes like Aug 26 cuts or season start, new instructions from Matt, KTC shifts that change a recommendation), rewrite affected sections so no stale/old plans remain, and bump its date. Do NOT update it on quiet monitoring runs, and never append history to it — history lives in the run logs.
+
 ## Cached Data (refresh as needed)
 All cached files live in `cache/` in this folder:
 - `cache/league.json` — league settings, scoring, roster positions
