@@ -181,12 +181,12 @@ Pick 9 (rainmannfl, us) is still **6 picks away** in round 1. The prior "availab
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-16 13:00, 22nd automated run._
-- **Draft:** 6 picks made (browser board = ground truth; API lags at 3). 1.1 Love, 1.2 Tate, 1.3 Tyson (auto), 1.4 Mendoza (auto), 1.5 Concepcion, 1.6 Price. **Pick 1.7 (Lurchh) on the clock (~20h left)**, then 1.8 FORDJTFC, then **US at 1.9**. Lemon still available.
-- **Trades:** Hunter offer (Cousins + Rattler + C. Kirk → Travis Hunter) OUTGOING to Revs1 (~1d, no response — no nudge per standing instruction). No incoming offers. Trade block: RexRocknut Chase + 1.03 (CLOSED for us); Lurchh 1.07; FukeLender 1.11; FORDJTFC 1.08 + players; DarrenA1 Likely/Golden; CMCPanthers Rice/Hockenson.
-- **Roster:** Clean — 9 starters / 12 bench / 0 IR / taxi (Rattler, Baker). QUES (preseason only): Pittman, Worthy, Kirk, Kraft, Estime. No moves needed.
-- **NFL state:** Preseason week 2, no active matchup, no waivers before Aug 26 cuts.
-- **Next-run watch:** Lurchh 1.7 pick then FORDJTFC 1.8 — we're on deck; verify via browser board and take Lemon at 1.9 if available.
+_As of: 2026-08-16 21:01, 27th automated run._
+- **Draft:** 7 picks made (browser board + API agree). 1.1 Love, 1.2 Tate, 1.3 Tyson (auto), 1.4 Mendoza (auto), 1.5 Concepcion, 1.6 Price, **1.7 Makai Lemon — taken by FORDJTFC (holds Lurchh's 1.7 + DarrenA1's 1.8 via trade)**. Our #1 target is gone. **FORDJTFC on the clock for 1.8 (~23h20m left)**, then **US at 1.9**. New board: 1) Omar Cooper (WR-NYJ, still available) 2) De'Zhaun Stribling. Execute without asking per Matt's standing instruction.
+- **Trades:** Hunter offer (Cousins + Rattler + C. Kirk → Travis Hunter) OUTGOING to Revs1 (~1d, no response — no nudge per standing instruction). No incoming offers. Trade block: RexRocknut Chase + 1.03 (CLOSED for us); FukeLender 1.11; FORDJTFC 1.08 (posted "open to offers" — not a target, no action); DarrenA1 Likely/Golden; CMCPanthers Rice/Hockenson.
+- **Roster:** Clean — 9 starters / 12 bench / 0 IR / taxi (Rattler, Baker). QUES (preseason only): Pittman, Kirk (Worthy/Kraft/Estime also monitor). No moves needed.
+- **NFL state:** Preseason, league status "drafting", no active matchup, no waivers before Aug 26 cuts.
+- **Next-run watch:** FORDJTFC's 1.8 pick (~23h clock) — we're on deck right after. Verify via browser board immediately once picks hit 8, and execute pick 1.9 (Cooper primary, Stribling fallback).
 
 ## Audit Trail (run logs)
 Per-run session notes live under `runs/<YYYY>/<MM>/<DD>/`, one file per run:
