@@ -1,12 +1,12 @@
 # Team Strategy — rainmannfl (Dog Tits)
 
-**Last updated: 2026-08-16 21:01** (Lemon taken at 1.7 — board updated)
+**Last updated: 2026-08-17 15:15** (Pick 1.9 executed — Omar Cooper drafted)
 
 > This file always reflects the CURRENT strategy only. No history, no stale plans — old strategy lives in the run logs under `runs/`. Overwrite sections in place when the strategy changes and bump the date above.
 
 ## TLDR
 - **Window: contend now** — the core (Allen, Hall, McBride, Bowers, G. Wilson) is elite and in-prime. Don't rebuild; get younger at WR/RB around the core.
-- **Draft 1.9: Makai Lemon is GONE (taken 1.7 by FORDJTFC). Take Omar Cooper (WR-NYJ)** if he survives pick 1.8. Fallback: De'Zhaun Stribling (WR). Never QB or TE — massively overstocked at both. Rounds 2–3: best available young WR/RB by landing spot.
+- **Draft: Pick 1.9 DONE — took Omar Cooper (WR-NYJ)**, per the confirmed board. Rounds 2 & 3 (both pick 9) still to come — best available young WR/RB by landing spot when they arrive (several picks away, snake order means round 2 starts at slot 12 and works down to us).
 - **Trades: sell surplus, buy youth.** Surplus = QB depth (Cousins, Rattler) and TE depth (Ferguson, or Kraft once healthy). Target = WR/RB aged ≤25 at value dips. Live offer out: Cousins + Rattler + C. Kirk → Travis Hunter (buy-low, no nudging).
 - **Every trade goes through the KTC calculator** (Superflex, adjusted verdict) — never raw value sums. Accept within ~10% fair in our favor; flag core-starter deals for Matt instead of deciding.
 - **FAAB: hold all $100 until after Aug 26 roster cuts**, then spend on clear upgrades over worst bench players.
@@ -16,7 +16,7 @@
 Superflex PPR dynasty, 12-team. Strengths: elite QB room (Allen + Goff covers both QB-capable slots), elite TE room (McBride + Bowers both startable), RB1 (Hall), WR1-quality depth (Wilson). Weaknesses: aging WR corps behind Wilson (Meyers 29, Kirk, Jennings), aging RB2 (Montgomery 29), thin young depth. Verdict: this is a contender whose supporting cast ages out in 1–2 seasons — every move should either help now at no future cost, or swap aging/surplus pieces for players aged ≤25.
 
 ## Draft (2026 rookie draft, in progress)
-- **Pick 1.9 board (Matt-confirmed, execute without asking):** 1) ~~Makai Lemon~~ — TAKEN 1.7 by FORDJTFC (2026-08-16), no longer available; 2) **Omar Cooper (WR-NYJ) — current top target**, healthy, edges Stribling on age; 3) De'Zhaun Stribling (WR) — fallback if Cooper goes at 1.8.
+- **Pick 1.9: DONE (2026-08-17).** Took Omar Cooper (WR-NYJ) — Lemon was gone (1.7, FORDJTFC), Cooper was still available at 1.9. Note: preseason camp news same day flagged him "losing ground for early-season work" behind Garrett Wilson/Isaiah Williams/Adonai Mitchell at NYJ — treat as a dynasty stash, not a Week 1 lock; monitor depth chart, no action needed now.
 - **Skip at any pick:** QB (5 rostered incl. taxi) and TE (4 rostered).
 - **Rounds 2 & 3 (both pick 9):** best available WR or RB, weight youth + NFL landing spot/depth-chart path over raw ADP. Re-check the live board and KTC before each pick — do not trust the picks API (lags; browser board is ground truth).
 - **Pick trades:** we hold 1.9, 2.9, 3.9. Only trade up if it's cheap insurance for Lemon (e.g. 1.8 swap + small sweetener); don't buy extra late 1sts — no need.
