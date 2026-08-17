@@ -1,0 +1,14 @@
+# 2026-08-17 10:03 — monitoring (30th run)
+
+**No side-effectful actions taken.** Chrome extension (Claude in Chrome) is disconnected for the **4th consecutive run** (retried twice this run, no reconnect). All browser-dependent checks (draft board verification, DM inbox, in-app trade offer review, lineup UI, full player injury data) could not be performed. API-only checks below.
+
+- **Draft (still blocked, urgency rising):** League metadata: `current_pick_no`="8", `on_the_clock_user_id` resolves to roster 2 → **FORDJTFC**, unchanged from last 2 runs. Picks endpoint (`/draft/.../picks`) confirms only 6 picks recorded (through 1.6, Jadarian Price → FORDJTFC), still lagging the live board by ~2 picks per known gotcha (1.7 Lemon already confirmed taken by FORDJTFC in a prior browser check, not yet reflected here). **We remain one pick away — FORDJTFC on the clock for 1.8 (traded pick from DarrenA1), then 1.9 is us.** Board unchanged: 1) Omar Cooper (WR-NYJ), 2) De'Zhaun Stribling (WR fallback). Skip QB/TE. `auto_continue`="on" remains the safety net if we're on the clock and still disconnected — but autopick won't necessarily match our board.
+- **Messages/DMs:** Not checked — no browser access.
+- **Trades:** Checked `/league/.../transactions/1` — no new "trade" type entries since last run (only historical completed trades, none involving roster 10). Hunter offer (Cousins+Rattler+C.Kirk → Revs1) status still unconfirmed — needs DM/offer UI (Chrome).
+- **Roster:** `/league/.../rosters` confirms roster_id 10's 22-player list is unchanged since the 2026-08-14 free-agent drops — no new transactions, no reserve/IR slots in use. Full injury-status refresh (QUES flags on Pittman, Kirk, Worthy, Kraft, Estime) attempted via `web_fetch` on `/players/nfl` directly (bypassing the browser-JS workaround) — the response was flagged as too large and written to a side file, but that file did not actually contain the expected player data (spot-checks for known players like "Josh Allen" returned zero matches), so this route is unreliable and was abandoned. No evidence of any injury-status change since last run.
+- **Lineup:** `/league/.../matchups/1` still returns empty — preseason, nothing to set.
+- **Waivers:** Before Aug 26 cuts — no action per strategy.
+
+**strategy.md:** not updated (no new information this run).
+
+**Next-run priority:** Chrome has now failed 4 runs running while we sit one pick from a live, pre-approved decision (1.9). This is a persistent, escalating problem — if it reconnects, immediately verify the live board and execute Cooper/Stribling without delay. If it's still down next run and we've gone on the clock, check whether autopick already fired and log/evaluate whatever player resulted against our board. The `web_fetch`-to-file workaround for full player injury data does not work reliably and should not be retried — stick to the browser-JS method once Chrome is back.

@@ -181,12 +181,13 @@ Pick 9 (rainmannfl, us) is still **6 picks away** in round 1. The prior "availab
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-16 21:01, 27th automated run._
-- **Draft:** 7 picks made (browser board + API agree). 1.1 Love, 1.2 Tate, 1.3 Tyson (auto), 1.4 Mendoza (auto), 1.5 Concepcion, 1.6 Price, **1.7 Makai Lemon — taken by FORDJTFC (holds Lurchh's 1.7 + DarrenA1's 1.8 via trade)**. Our #1 target is gone. **FORDJTFC on the clock for 1.8 (~23h20m left)**, then **US at 1.9**. New board: 1) Omar Cooper (WR-NYJ, still available) 2) De'Zhaun Stribling. Execute without asking per Matt's standing instruction.
-- **Trades:** Hunter offer (Cousins + Rattler + C. Kirk → Travis Hunter) OUTGOING to Revs1 (~1d, no response — no nudge per standing instruction). No incoming offers. Trade block: RexRocknut Chase + 1.03 (CLOSED for us); FukeLender 1.11; FORDJTFC 1.08 (posted "open to offers" — not a target, no action); DarrenA1 Likely/Golden; CMCPanthers Rice/Hockenson.
-- **Roster:** Clean — 9 starters / 12 bench / 0 IR / taxi (Rattler, Baker). QUES (preseason only): Pittman, Kirk (Worthy/Kraft/Estime also monitor). No moves needed.
-- **NFL state:** Preseason, league status "drafting", no active matchup, no waivers before Aug 26 cuts.
-- **Next-run watch:** FORDJTFC's 1.8 pick (~23h clock) — we're on deck right after. Verify via browser board immediately once picks hit 8, and execute pick 1.9 (Cooper primary, Stribling fallback).
+_As of: 2026-08-17 11:02, 31st automated run._
+- **⚠️ Chrome (Claude in Chrome extension) has now been disconnected for 5 CONSECUTIVE runs** (09:01, 09:30, 10:03, 11:02 today, plus prior) — could not verify draft board, check DMs, review trade offers in-app, or refresh injury data. All findings below are API-only. Escalating, persistent problem — flagged prominently to Matt again. First priority next run: reconnect Chrome and catch up on everything browser-dependent.
+- **Draft:** Picks endpoint still lags (shows only 6, through 1.6), but league `current_pick_no`="8" and `on_the_clock_user_id` resolves to FORDJTFC (slot 6/roster 2) — consistent with prior runs: FORDJTFC is on the clock for pick 1.8 (via DarrenA1's traded pick), **we are NOT yet on the clock**. Could not cross-verify via browser board this run (Chrome down). Board unchanged: target 1) Omar Cooper (WR-NYJ), 2) De'Zhaun Stribling. Execute without asking per Matt's standing instruction the moment 1.9 arrives. `auto_continue`="on" remains the safety net if we're on the clock and Chrome is still down — won't necessarily match our board. If Chrome stays down through 1.9, check next run whether autopick already fired and evaluate the result.
+- **Trades:** No new trade transactions in the API. Hunter offer (Cousins + Rattler + C. Kirk → Revs1) status unconfirmed this run (DM/offer UI needs Chrome) — last known: outgoing, no response, no nudge per standing instruction.
+- **Roster:** Confirmed via `/rosters` — no new transactions since 2026-08-14 free-agent drops, no IR slots in use. QUES flags (Pittman, Kirk, Worthy, Kraft, Estime) not re-checked this run — assume unchanged absent evidence otherwise.
+- **NFL state:** Preseason, league status "drafting", `/matchups/1` empty (no active matchup), no waivers before Aug 26 cuts.
+- **Next-run watch:** Reconnect Chrome first. We're one pick (FORDJTFC's 1.8) away from being on the clock at 1.9 — verify the live board immediately and execute Cooper/Stribling without delay, or check if autopick already acted. Also catch up on DMs and Hunter offer status.
 
 ## Audit Trail (run logs)
 Per-run session notes live under `runs/<YYYY>/<MM>/<DD>/`, one file per run:
