@@ -174,6 +174,19 @@ Pick 9 (rainmannfl, us) is still **6 picks away** in round 1. The prior "availab
 - Some autopicks were made (picks 2, 4 were CPU autopicks per chat)
 - Traded picks: FORDJTFC/Revs1 made a 2-way trade (saw in chat)
 
+## Git on this mount — workaround required (2026-08-17 lesson)
+This folder is a write-once-ish FUSE mount: files can be created and **overwritten**, but **never unlinked or renamed** (`rm`/`mv` return `Operation not permitted` even on files you just created, even as the owning user). Plain `git commit`/`git add` will eventually leave a stale `.git/index.lock` or `.git/HEAD.lock` that can never be cleaned up, permanently breaking normal git commands in this repo. **Do not run plain `git add`/`git commit` here.** Use this workaround every time you need to commit:
+```bash
+export GIT_INDEX_FILE=/tmp/sleeper_index_$$   # index lives in /tmp, not the mount — avoids index.lock entirely
+git read-tree HEAD
+git add -A                                     # stage against the temp index
+TREE=$(git write-tree)
+COMMIT=$(echo "commit message" | git commit-tree $TREE -p HEAD)
+echo "$COMMIT" > .git/refs/heads/main          # overwrite (not rename) the loose ref directly — bypasses HEAD.lock
+cp $GIT_INDEX_FILE .git/index                  # sync the real index (overwrite, not rename) so `git status` reads correctly after
+```
+Harmless `warning: unable to unlink '.git/objects/xx/tmp_obj_...'` lines during `write-tree`/`commit-tree` are expected (temp object files can't be cleaned up either) — the permanent object still gets created correctly; ignore these warnings. If a stray `.git/index.lock`/`HEAD.lock` already exists from a prior broken run, it cannot be removed — just use the workaround above, which never touches those files.
+
 ## Standing Instructions from Matt (durable — do not violate)
 - **No nudges on silent trade offers (2026-08-15):** Do NOT follow up / nudge Revs1 (or anyone) about an unanswered trade offer. If an offer gets no reply, leave it; forget it entirely if still silent after ~1 month (~2026-09-15). No follow-up DMs on silent offers, ever.
 - **Chase pursuit CLOSED (2026-08-15):** Matt confirmed via WhatsApp that RexRocknut rejected the Wilson+Williams-for-Chase deal and doesn't want anything we have. Do not re-approach RexRocknut on Chase.
