@@ -1,0 +1,14 @@
+# 2026-08-17 12:00 — monitoring (32nd run)
+
+**No side-effectful actions taken.** Chrome extension (Claude in Chrome) is disconnected for the **6th consecutive run** (`list_connected_browsers` returned empty). All browser-dependent checks (draft board verification, DM inbox, in-app trade offer review, lineup UI, full player injury data) could not be performed. API-only checks below.
+
+- **Draft (still blocked, still one pick away — but metadata now suspiciously static):** League metadata: `current_pick_no`="8", `on_the_clock_user_id` resolves to roster 2 → **FORDJTFC**, unchanged for the 5th run running now (was already "8"/FORDJTFC at 09:01, 09:30, 10:03, 11:02, and still at 12:00). Picks endpoint still shows only 6 picks recorded (through 1.6, Jadarian Price → FORDJTFC roster 2) — lagging per known gotcha; 1.7 (Lemon, taken by FORDJTFC) was already confirmed via an earlier browser check and reflected in strategy.md. FORDJTFC is on the clock for their second pick (1.8, traded from DarrenA1) — **we remain one pick away at 1.9**. **New observation:** `current_pick_no` has now been frozen at "8" across at least 4 consecutive runs (~3 hours) — this could mean the draft is genuinely paused/stalled (FORDJTFC AFK, commish pause) rather than just the picks-endpoint-lag gotcha, since that gotcha is about the *picks list* lagging, not this metadata field. Cannot confirm without the browser board. Board unchanged: 1) Omar Cooper (WR-NYJ), 2) De'Zhaun Stribling (WR fallback). Execute without asking per Matt's standing instruction the moment 1.9 arrives. `auto_continue`="on" remains the safety net if we go on the clock while still disconnected.
+- **Messages/DMs:** Not checked — no browser access.
+- **Trades:** Checked `/league/.../transactions/1` — no new "trade" type entries since last run. Hunter offer (Cousins+Rattler+C.Kirk → Revs1) status still unconfirmed — needs DM/offer UI (Chrome).
+- **Roster:** `/league/.../rosters` confirms roster_id 10's 22-player list is unchanged since 2026-08-14 — no new transactions, `reserve: null` (no IR slots in use), taxi unchanged (Rattler, Baker). No injury-status refresh possible (needs browser-JS player lookup); no evidence of change since last run.
+- **Lineup:** `/league/.../matchups/1` still returns empty — preseason, nothing to set.
+- **Waivers:** Before Aug 26 cuts — no action per strategy.
+
+**strategy.md:** not updated (no new information this run).
+
+**Next-run priority:** Chrome has now failed 6 runs running. Given `current_pick_no` has been static at "8" for ~3 hours, worth considering next run whether this genuinely indicates a paused draft (in which case there's nothing actionable) vs. a stale field — either way, reconnecting Chrome to check the live board directly is the only way to resolve this. If it reconnects, immediately verify the live board and execute Cooper/Stribling without delay if we're on/near the clock. Also catch up on DMs and Hunter offer status.
