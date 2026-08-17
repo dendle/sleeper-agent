@@ -125,8 +125,8 @@ To make a draft pick:
 
 ### Round 1 (Pick 9) — DONE (2026-08-17): took Omar Cooper (WR-NYJ). Board through 1.9: 1.1 Love, 1.2 Tate, 1.3 Tyson, 1.4 Mendoza, 1.5 Concepcion, 1.6 Price, 1.7 Lemon (FORDJTFC), 1.8 Branch (FORDJTFC, traded 2nd pick), **1.9 Cooper (us)**.
 
-### Round 2 (Pick 9) — Target: Best available RB or WR. Snake order means round 2 starts at slot 12 and works down — several picks away from us still. Re-check live board + KTC before acting; see strategy.md for the current target list.
-### Round 3 (Pick 9) — Target: Upside WR or RB with good landing spot. Same snake-order logic as round 2 (starts at slot 1, works up to us).
+### Round 2 (Pick 9) — Target: Best available RB or WR. **This is a LINEAR draft, not snake** — confirmed via live board 2026-08-17: round 2 order is identical to round 1 (2.1 Revs1 → 2.2 Kimish → ... → 2.9 rainmannfl → 2.12 antsinpants), round 3 follows the same pattern. Do not assume snake reversal. Re-check live board + KTC before acting; see strategy.md for the current target list.
+### Round 3 (Pick 9) — Target: Upside WR or RB with good landing spot. Same linear order as round 2 (3.1 starts at Revs1, works down to us at 3.9).
 
 ## Slot-to-Roster Mapping (draft order)
 | Slot | Roster ID | Manager |
@@ -177,12 +177,12 @@ Harmless `warning: unable to unlink '.git/objects/xx/tmp_obj_...'` lines during 
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-17 15:15, 36th automated run._
-- **Draft:** **Pick 1.9 EXECUTED this run** — drafted Omar Cooper (WR-NYJ), confirmed via browser draft board screenshot (board cell 1.9 shows "O. Cooper WR-NYJ" under rainmannfl, WR queue count moved to 1/2). Note: same-day camp news flagged Cooper "losing ground for early-season work" behind G. Wilson/Isaiah Williams/Adonai Mitchell at NYJ — treat as dynasty stash, not a Week 1 lock, no action needed. Round 2 (2.9) is several picks away — snake order starts round 2 at slot 12 and works down to us; not actionable yet. Picks API still lags the live board (only showed 6 total picks when checked, missing 1.7-1.9) — browser board remains ground truth.
-- **Trades:** Active Trades tab confirms exactly 1 open trade — our outgoing Revs1 offer (Cousins + Rattler + C. Kirk → Travis Hunter). No reply yet — no nudge per standing instruction. RexRocknut/Chase thread remains closed. FORDJTFC thread stale/dead. Trade block scanned — no new listings match our buy targets, no unsolicited pitches sent.
-- **Roster:** Confirmed via `/rosters` — pre-Cooper 22-player list unchanged (Cooper not yet reflected in API, known lag pattern), no IR slots in use, taxi unchanged (Rattler, Baker). Injury re-check via players/nfl: same 5 Questionable tags as before (Estime, Worthy, C. Kirk, Pittman, Kraft), none escalated — no IR moves or drops triggered. Cache files refreshed this run to include Cooper.
-- **NFL state:** Preseason, league status "drafting", `/matchups/1` empty (no active matchup), no waivers before Aug 26 cuts.
-- **Next-run watch:** Watch for round 2 (2.9) to approach as remaining round-1 picks and early round-2 picks land — re-verify board/KTC before acting when close. Keep watching for a Revs1 reply on the Hunter offer (no nudge).
+_As of: 2026-08-17 18:03, 39th automated run._
+- **Draft:** Round 1 complete (all 12 picks confirmed live, our 1.9 = Omar Cooper unchanged). Round 2 still on 2.1 (Revs1) — timer 21:31:43 remaining, down ~1hr since last run, draft pace remains very slow. Linear order re-confirmed. Still 7 picks away from 2.9 — not actionable yet. Picks API still lags (only shows round 1) — browser board remains ground truth.
+- **Trades:** Still exactly 1 open trade — outgoing Revs1 offer (Cousins + Rattler + C. Kirk → Travis Hunter), no reply, no nudge per standing instruction. RexRocknut/Chase thread still closed. Trade block reviewed in full (RexRocknut, FukeLender, Lurchh, DarrenA1, CMCPanthers, FORDJTFC listings) — none match buy targets, no unsolicited pitches sent. League chat: new unrelated banter (Lurchh↔jiedunbar "check trade", FORDJTFC confirming 1.08 also open) — doesn't involve us.
+- **Roster:** Confirmed via `/rosters` — 22-player list unchanged (Cooper still not reflected, known API lag, now >24h stale), no IR slots in use, taxi unchanged (Rattler, Baker). Injuries: same 7 Questionable tags as last run, no escalation — Estime (Leg), Worthy (Shoulder), C. Kirk (Undisclosed), Pittman (Leg), Wilson (Illness), Hall (Thigh), Kraft (Knee-ACL). None Out/Doubtful/IR-eligible, no roster action triggered. Watch Hall/Wilson for escalation (Hall is a core RB1 starter).
+- **NFL state:** Preseason, league status "drafting", `/matchups/1` empty (no active matchup), no waivers before Aug 26 cuts (9 days out).
+- **Next-run watch:** Track round 2 progress toward 2.9 (7 more picks after 2.1, pace has been slow). Watch Hall/Wilson injury status for escalation. Keep watching for a Revs1 reply on the Hunter offer (no nudge).
 
 ## Audit Trail (run logs)
 Per-run session notes live under `runs/<YYYY>/<MM>/<DD>/`, one file per run:
