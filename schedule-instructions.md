@@ -16,6 +16,7 @@ At the end of EVERY run:
 3. If a significant event occurred (see "Updating strategy.md" below), update strategy.md in place.
 4. If you learned a durable rule/lesson or Matt gave a standing instruction, fold it into the appropriate agents.md section.
 5. Keep cache/league.json and cache/rainmannfl_roster.json fresh.
+6. Close any chrome tab groups that you create to not leave a huge trail of them!
 
 ## Updating strategy.md (significant events only)
 strategy.md is a living document, not a log. Update it ONLY when something changes what we should do going forward — not on quiet monitoring runs. Significant events:
