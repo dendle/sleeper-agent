@@ -177,13 +177,13 @@ Harmless `warning: unable to unlink '.git/objects/xx/tmp_obj_...'` lines during 
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-18 13:30, 47th automated run (quick re-check, ~1.5hr after prior run — nothing actionable, as expected)._
+_As of: 2026-08-18 14:02, 48th automated run (quick re-check, ~30min after prior run — nothing actionable, as expected)._
 - **Browser:** Claude in Chrome MCP connected fine this run.
-- **Draft:** Confirmed via live browser board (ground truth). Round 2 still at **2.3, RexRocknut on the clock** (08:54:26 remaining). Linear order confirmed again: 2.1 Revs1 (Lane) → 2.2 Kimish (Boston) → 2.3 RexRocknut (current) → 2.4 cdavis2506 → 2.5 jiedunbar → 2.6 FORDJTFC → 2.7 Lurchh → 2.8 DarrenA1 → **2.9 rainmannfl (us)** → 2.10 CMCPanthers → 2.11 FukeLender → 2.12 antsinpants. 6 picks away — not actionable. Picks API still stuck at round 1 only (known lag, not used).
-- **Trades/Messages:** 1 open trade unchanged (Revs1 Hunter offer, Cousins+Rattler+C.Kirk, still no reply, no nudge). League chat and DM inbox both unchanged, nothing new involving us. Trade block unchanged from last run, incl. RexRocknut's Chase listing — that thread remains CLOSED per Matt's 2026-08-15 standing instruction, no action taken.
+- **Draft:** Confirmed via live browser board (ground truth). Round 2 still at **2.3, RexRocknut on the clock** (07:54:23 remaining, down from 08:54:26 — consistent with elapsed time, no picks made since). Linear order confirmed again: 2.1 Revs1 (Lane) → 2.2 Kimish (Boston) → 2.3 RexRocknut (current) → 2.4 cdavis2506 → 2.5 jiedunbar → 2.6 FORDJTFC → 2.7 Lurchh → 2.8 DarrenA1 → **2.9 rainmannfl (us)** → 2.10 CMCPanthers → 2.11 FukeLender → 2.12 antsinpants. 6 picks away — not actionable. Picks API still stuck at round 1 only (known lag, not used).
+- **Trades/Messages:** 1 open trade unchanged (Revs1 Hunter offer, Cousins+Rattler+C.Kirk, still no reply, no nudge). League chat: one new entry (Revs1 DMed Lurchh — not involving us, no action). DM inbox and @mentions unchanged, nothing new involving us. Trade block unchanged from last run, incl. RexRocknut's Chase listing — that thread remains CLOSED per Matt's 2026-08-15 standing instruction, no action taken.
 - **Roster:** Confirmed via `/rosters` — 22-player list unchanged, `reserve: null` (no IR in use), taxi unchanged (Rattler, Baker), FAAB still $0 used.
 - **Injuries:** Re-checked fresh via Chrome JS fetch. Same 7 Questionable tags, no escalation: Hall (Thigh), Pittman (Leg), G. Wilson (Illness), Worthy (Shoulder), Estime (Leg), C. Kirk (Undisclosed), Kraft (Knee-ACL). None Out/Doubtful/IR-eligible — no IR move, no drop triggered.
-- **NFL state:** Preseason, league status "drafting", `/matchups/1` empty, no waivers before Aug 26 cuts (8 days out).
+- **NFL state:** Preseason (week 2), league status "drafting", `/matchups/1` empty, no waivers before Aug 26 cuts (8 days out).
 - **Next-run priority:** Continue tracking round 2 toward 2.9 (6 more picks after 2.3). Watch Hall/G. Wilson injury tags as Week 1 nears. Keep waiting on Revs1 reply (no nudge). Nothing else outstanding.
 
 ## Audit Trail (run logs)
