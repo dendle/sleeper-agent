@@ -179,14 +179,14 @@ Harmless `warning: unable to unlink '.git/objects/xx/tmp_obj_...'` lines during 
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-18 15:05, 49th automated run (quick re-check, ~1hr after prior run — nothing actionable, as expected)._
+_As of: 2026-08-18 15:35, 50th automated run — SIGNIFICANT: Revs1 accepted the Travis Hunter trade offer._
 - **Browser:** Claude in Chrome MCP connected fine this run.
-- **Draft:** Confirmed via live browser board (ground truth). Round 2 still at **2.3, RexRocknut on the clock** (06:54:21 remaining, down from 07:54:23 — consistent with elapsed time, no picks made since). Linear order confirmed again: 2.1 Revs1 (Lane) → 2.2 Kimish (Boston) → 2.3 RexRocknut (current) → 2.4 cdavis2506 → 2.5 jiedunbar → 2.6 FORDJTFC → 2.7 Lurchh → 2.8 DarrenA1 → **2.9 rainmannfl (us)** → 2.10 CMCPanthers → 2.11 FukeLender → 2.12 antsinpants. 6 picks away — not actionable. Picks API still stuck at round 1 only (known lag, not used).
-- **Trades/Messages:** 1 open trade unchanged (Revs1 Hunter offer, Cousins+Rattler+C.Kirk, still no reply, no nudge). League chat, DM inbox, @mentions all unchanged, nothing new involving us. Trade block unchanged from last run, incl. RexRocknut's Chase listing — that thread remains CLOSED per Matt's 2026-08-15 standing instruction, no action taken.
-- **Roster:** Confirmed via `/rosters` — 22-player list unchanged, `reserve: null` (no IR in use), taxi unchanged (Rattler, Baker), FAAB still $0 used.
-- **Injuries:** Re-checked fresh via Chrome JS fetch. **Garrett Wilson's Illness tag has cleared** (now healthy) — 6 Questionable tags remain, no escalation: Hall (Thigh), Pittman (Leg), Worthy (Shoulder), Estime (Leg), C. Kirk (Undisclosed), Kraft (Knee-ACL). None Out/Doubtful/IR-eligible — no IR move, no drop triggered.
-- **NFL state:** Preseason (week 2), league status "drafting", `/matchups/1` empty, no waivers before Aug 26 cuts (8 days out).
-- **Next-run priority:** Continue tracking round 2 toward 2.9 (6 more picks after 2.3). Keep waiting on Revs1 reply (no nudge). Nothing else outstanding.
+- **Draft:** Confirmed via live browser board (ground truth). Round 2 still at **2.3, RexRocknut on the clock** (06:22:23 remaining, down from 06:54:21 — consistent with elapsed time, no picks made since). Linear order: 2.1 Revs1 → 2.2 Kimish → 2.3 RexRocknut (current) → 2.4 cdavis2506 → 2.5 jiedunbar → 2.6 FORDJTFC → 2.7 Lurchh → 2.8 DarrenA1 → **2.9 rainmannfl (us)** → 2.10 CMCPanthers → 2.11 FukeLender → 2.12 antsinpants. 6 picks away — not actionable. Picks API still stuck at round 1 only (known lag, not used).
+- **Trades/Messages:** **Revs1 accepted our Hunter offer** (we send Cousins+Rattler+C.Kirk, receive Travis Hunter) — both sides show ACCEPTED, trade is PENDING/processing **2026-08-20 (Thursday)**, no action needed, will auto-process. This closes the open Hunter thread. RexRocknut/Chase thread unchanged, remains CLOSED per standing instruction. League chat/DM inbox/@mentions otherwise unchanged, nothing new involving us. Trade block scanned, nothing matching our buy list.
+- **Roster:** Confirmed via `/rosters` — 22-player list unchanged, `reserve: null` (no IR in use), taxi unchanged (Rattler, Baker), FAAB still $0 used. **Will change on/after 2026-08-20** once the Hunter trade processes (lose Cousins/Rattler/C.Kirk, gain Hunter; taxi loses Rattler — backfill from rookie picks).
+- **Injuries:** Re-checked fresh via Chrome JS fetch. 6 Questionable tags, unchanged: Hall (Thigh), Pittman (Leg), Worthy (Shoulder), Estime (Leg), C. Kirk (Undisclosed), Kraft (Knee-ACL). None Out/Doubtful/IR-eligible — no IR move, no drop triggered.
+- **NFL state:** Preseason, league status "drafting", `/matchups/1` empty, no waivers before Aug 26 cuts (8 days out).
+- **Next-run priority:** Continue tracking round 2 toward 2.9. **Watch for Hunter trade processing 2026-08-20** — refresh roster cache, backfill taxi, update strategy.md sell list/open threads once it clears.
 
 ## Audit Trail (run logs)
 Per-run session notes live under `runs/<YYYY>/<MM>/<DD>/`, one file per run:

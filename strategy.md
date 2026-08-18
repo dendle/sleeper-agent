@@ -1,13 +1,13 @@
 # Team Strategy — rainmannfl (Dog Tits)
 
-**Last updated: 2026-08-17 15:15** (Pick 1.9 executed — Omar Cooper drafted)
+**Last updated: 2026-08-18 15:35** (Revs1 accepted the Travis Hunter trade — processing 2026-08-20)
 
 > This file always reflects the CURRENT strategy only. No history, no stale plans — old strategy lives in the run logs under `runs/`. Overwrite sections in place when the strategy changes and bump the date above.
 
 ## TLDR
 - **Window: contend now** — the core (Allen, Hall, McBride, Bowers, G. Wilson) is elite and in-prime. Don't rebuild; get younger at WR/RB around the core.
-- **Draft: Pick 1.9 DONE — took Omar Cooper (WR-NYJ)**, per the confirmed board. Rounds 2 & 3 (both pick 9) still to come — best available young WR/RB by landing spot when they arrive (several picks away, snake order means round 2 starts at slot 12 and works down to us).
-- **Trades: sell surplus, buy youth.** Surplus = QB depth (Cousins, Rattler) and TE depth (Ferguson, or Kraft once healthy). Target = WR/RB aged ≤25 at value dips. Live offer out: Cousins + Rattler + C. Kirk → Travis Hunter (buy-low, no nudging).
+- **Draft: Pick 1.9 DONE — took Omar Cooper (WR-NYJ)**, per the confirmed board. Rounds 2 & 3 (both pick 9) still to come — best available young WR/RB by landing spot when they arrive (linear order, several picks away).
+- **Trades: Hunter deal ACCEPTED, processing 2026-08-20.** Revs1 accepted Cousins + Rattler + C. Kirk → Travis Hunter — no action needed, auto-processes Thursday. Once it clears: roster gains Hunter (WR-JAX, buy-low ex-top pick), loses Cousins/Rattler/C.Kirk; taxi loses Rattler (backfill from rookie picks); QB depth drops to 3 (Allen/Goff — fine, was surplus); remaining sell candidates: Jake Ferguson (TE4), Jauan Jennings (aging bench WR). Refresh roster cache and re-evaluate lineup/bench once Hunter is rostered.
 - **Every trade goes through the KTC calculator** (Superflex, adjusted verdict) — never raw value sums. Accept within ~10% fair in our favor; flag core-starter deals for Matt instead of deciding.
 - **FAAB: hold all $100 until after Aug 26 roster cuts**, then spend on clear upgrades over worst bench players.
 - **Lineup for Week 1:** Garrett Wilson (91% start) must start — swap him in over Pittman if Pittman is still QUES, otherwise over Meyers.
@@ -24,9 +24,9 @@ Superflex PPR dynasty, 12-team. Strengths: elite QB room (Allen + Goff covers bo
 ## Trades
 - **Method (mandatory):** simulate every deal in the KTC trade calculator, Superflex mode, and trust the adjusted verdict (value adjustment penalizes quantity-for-quality). See `.claude/skills/ktc-trades/SKILL.md`.
 - **Decision rule:** accept if within ~10% of fair in our favor or better; counter once if lowball but engaged; reject politely if clearly bad. If a deal moves a core current starter and it's a close call — log it for Matt, don't execute.
-- **Sell list (surplus):** Kirk Cousins (QB3), Spencer Rattler (taxi QB), Jake Ferguson (TE4), Christian Kirk / Jauan Jennings (aging bench WRs). Kraft is sellable once healthy but only at fair TE2 value.
-- **Buy profile:** WR/RB aged ≤25 whose KTC value has dipped below talent level (the Travis Hunter play — WR50 pricing on a former top pick). Scan KTC risers/fallers when a trade is in motion.
-- **Open threads:** Hunter offer to Revs1 (Cousins + Rattler + C. Kirk) — outstanding, NO nudges ever (standing instruction); abandon if silent by ~2026-09-15. Chase/RexRocknut is CLOSED — do not re-approach.
+- **Sell list (surplus, post-Hunter-trade):** Jake Ferguson (TE4), Jauan Jennings (aging bench WR). Kraft is sellable once healthy but only at fair TE2 value.
+- **Buy profile:** WR/RB aged ≤25 whose KTC value has dipped below talent level (the Travis Hunter play was exactly this — WR50-ish pricing on a former top-2 pick — now closing 2026-08-20). Scan KTC risers/fallers when a trade is in motion.
+- **Open threads:** None outstanding. Hunter deal with Revs1 ACCEPTED, processing 2026-08-20 — no further action. Chase/RexRocknut is CLOSED — do not re-approach.
 
 ## Roster management
 - **Drop-candidate order** when a spot is needed: Javon Baker (taxi, no NFL team) > Audric Estime (depth 6 at NO, now QUES) > Jennings > C. Kirk.
