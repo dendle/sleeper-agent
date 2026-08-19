@@ -77,13 +77,13 @@ To make a draft pick:
 
 **IMPORTANT:** Sleeper draft picks CANNOT be made via REST API. Must use browser automation.
 
-## rainmannfl Roster Summary (updated 2026-08-15, confirmed live 8th run)
+## rainmannfl Roster Summary (updated 2026-08-19, confirmed live — Hunter trade processed)
 
 ### Starters (current)
 | Pos | Player | Team | Age | Notes |
 |-----|--------|------|-----|-------|
 | QB | Josh Allen (4984) | BUF | 30 | Elite, franchise QB |
-| RB | Breece Hall (8155) | NYJ | 25 | RB1, elite |
+| RB | Breece Hall (8155) | NYJ | 25 | RB1, elite. QUES — groin strain (news 2026-08-19), expected back for Sept 13 opener |
 | RB | David Montgomery (5892) | HOU | 29 | Aging, needs replacement |
 | WR | Jakobi Meyers (5947) | JAX | 29 | Aging, depth 3 at JAX |
 | WR | Michael Pittman (6819) | PIT | 28 | QUES preseason — monitor for Week 1 |
@@ -92,26 +92,25 @@ To make a draft pick:
 | FLEX | Brock Bowers (11604) | LV | 23 | Elite TE, moved to WRT starter (7th run) |
 | SF | Jared Goff (3163) | DET | 31 | Good SF option |
 
-### Bench (13 players — Omar Cooper added 2026-08-17 via 1.9 pick, not yet in /rosters API — known lag)
-- **Omar Cooper** (WR, NYJ, id 13276) — drafted 1.9 (2026-08-17 rookie draft), rank 107. Camp news same day: losing ground for early-season slot work behind G. Wilson/Isaiah Williams/Adonai Mitchell — dynasty stash, monitor depth chart, no action needed
+### Bench (11 players — Cousins/Rattler/C.Kirk traded away, Hunter added, 2026-08-19; Omar Cooper still not synced to /rosters API — known lag)
+- **Omar Cooper** (WR, NYJ, id 13276) — drafted 1.9 (2026-08-17 rookie draft), rank 107. Camp news: losing ground for early-season slot work behind G. Wilson/Isaiah Williams/Adonai Mitchell — dynasty stash, monitor depth chart, no action needed. Still absent from /rosters API as of 2026-08-19 — expected, syncs once the 3-round draft fully completes.
+- **Travis Hunter** (WR, JAX, id 12530) — ACQUIRED 2026-08-19 via trade w/ Revs1 (sent Cousins+Rattler+C.Kirk). Buy-low ex-top-2 pick, recovering from Nov 2025 knee surgery; camp reports (2026-08-19) say recovery "going as expected," two-way WR/CB role planned, WR snaps possibly limited early season — monitor camp/Week 1 role.
 - **Garrett Wilson** (WR, NYJ, id 8146) — elite WR depth 1, 91% start%, bench behind Pittman/Meyers; swap in if Pittman remains QUES for Week 1
 - **Xavier Worthy** (WR, KC, id 11624) — QUES preseason, depth 2
 - **Audric Estime** (RB, NO, id 11579) — depth 6 at NO — minimal value, potential drop candidate
 - **Kaleb Johnson** (RB, PIT, id 12504) — 2026 rookie RB, depth 4 at PIT
 - **Tre' Harris** (WR, LAC, id 12509) — 2026 rookie WR
-- **Kirk Cousins** (QB, LV, id 1166) — excess QB, trade candidate (pitched to Revs1); depth 2 at LV behind Mendoza
-- **Christian Kirk** (WR, SF, id 4950) — aging WR, QUES preseason, depth 4
 - **Jauan Jennings** (WR, MIN, id 7049) — aging WR, depth 3
 - **Jake Ferguson** (TE, DAL, id 8110) — depth TE, depth 1 at DAL
 - **Quentin Johnston** (WR, LAC, id 9754) — depth 2 at LAC
 - **Tucker Kraft** (TE, GB, id 9484) — QUES (knee recovery), depth 1 at GB; moved from IR to bench in 7th run
 
 ### Reserve/IR
-- **EMPTY** — all 3 IR slots are clear after 7th run cleanup
+- **EMPTY** — all 3 IR slots are clear
 
-### Taxi (2)
-- Spencer Rattler (QB, NO, id 11562) — excess QB depth
+### Taxi (1 of 3 slots used)
 - Javon Baker (WR, FA/no team, id 11645) — no NFL team, minimal value
+- 2 slots open — backfill from rookie draft picks (e.g. Omar Cooper) once draft completes and picks sync to roster. Spencer Rattler left the taxi squad via the Hunter trade (2026-08-19).
 
 ### Roster Needs (Dynasty Priority)
 1. **WR youth** — Meyers/Kirk/Jennings all 29+, need replacements (draft pick 1.9 targets this)
@@ -179,14 +178,14 @@ Harmless `warning: unable to unlink '.git/objects/xx/tmp_obj_...'` lines during 
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-18 21:00, 56th automated run — steady-state, no changes since 20:03 run._
-- **Browser:** Claude in Chrome MCP connected fine this run.
-- **Draft:** Confirmed via live browser board (ground truth), cross-checked against picks API (both agree, no lag this run). Round 2 still at **2.3, RexRocknut on the clock** (54:14 remaining, down from 01:54:26 — consistent with elapsed time, no picks made since). Linear order: 2.1 Revs1 → 2.2 Kimish → 2.3 RexRocknut (current) → 2.4 cdavis2506 → 2.5 jiedunbar → 2.6 FORDJTFC → 2.7 Lurchh → 2.8 DarrenA1 → **2.9 rainmannfl (us)** → 2.10 CMCPanthers → 2.11 FukeLender → 2.12 antsinpants. 6 picks away — not actionable.
-- **Trades/Messages:** Hunter trade with Revs1 still **PENDING, processing 2026-08-20 (Thursday)** — unchanged, no action needed (Active Trades count = 1, confirmed via Trades tab). Lurchh/Revs1 and FORDJTFC/Revs1 pick trades still PENDING, processing 2026-08-20. RexRocknut/Chase thread unchanged, remains CLOSED per standing instruction. Trade block re-scanned, nothing matches our buy list. DM inbox (Revs1, RexRocknut, FORDJTFC, Lurchh, SleeperHQ, DarrenA1) all unchanged, nothing new involving us. League @mentions inbox — nothing new. League chat: Revs1 dropped two free agents (Hyatt, Legette), not relevant to us.
-- **Roster:** Confirmed via `/rosters` — unchanged, `reserve: null` (no IR in use), taxi unchanged (Rattler, Baker), FAAB still $0 used. **Will change on/after 2026-08-20** once the Hunter trade processes (lose Cousins/Rattler/C.Kirk, gain Hunter; taxi loses Rattler — backfill from rookie picks).
-- **Injuries:** Re-checked fresh via Chrome JS fetch. Same 7 Questionable tags as last run, none new, none worsened (Hall-Thigh, Pittman-Leg, Worthy-Shoulder, Estime-Leg, C.Kirk-Undisclosed, Kraft-Knee/ACL, Q.Johnston-Lower Body). No IR move, no drop triggered.
-- **NFL state:** Preseason, league status "drafting", `/matchups/1` empty, no waivers before Aug 26 cuts (7 days out).
-- **Next-run priority:** Continue tracking round 2 toward 2.9. **Watch for Hunter trade processing 2026-08-20** (and the two unrelated pick trades, same date) — refresh roster cache, backfill taxi, update strategy.md sell list/open threads once Hunter clears.
+_As of: 2026-08-19 12:15 UTC, 57th automated run — Chrome MCP disconnected all run; API-only monitoring._
+- **Browser:** Claude in Chrome MCP was NOT connected this entire run (repeated `tabs_context_mcp` calls failed with "not connected", retried 3x over ~15s). Could not verify the live draft board, DM inbox, trade tab, league chat, or take any lineup/roster-move screenshots. All findings this run are from the public Sleeper REST API (via `web_fetch`) plus WebSearch for injury/player news. **Next run: retry Chrome first thing** and do a full browser sweep (draft board, DMs, trades, trade block) since none of that could happen this run.
+- **Draft:** Picks API still shows only 14 picks (last: 2.2 Denzel Boston/Kimish) — same as the 21:00 Aug 18 run, but the draft object's `last_picked` timestamp is now **2026-08-19 09:48 UTC**, well after that run — proof at least one more pick (2.3, RexRocknut) has happened and the picks endpoint is lagging (known issue). Pick timer is 24h/pick (`pick_timer: 86400`), so no urgency, but exact current on-the-clock team is unconfirmed — needs browser check next run. Still several picks from our 2.9.
+- **Trades:** Both previously-pending trades **PROCESSED this morning, confirmed via `/transactions/1`:** (1) our Cousins+Rattler+C.Kirk → Travis Hunter deal with Revs1, status_updated 2026-08-19 09:22:50 UTC; (2) an unrelated 2028 pick swap between roster 1/2/11 (FORDJTFC/Revs1-adjacent), status_updated 09:16:44 UTC. No new trade decision needed — Hunter deal was already accepted in a prior run, this was just automatic processing. Could NOT check DMs/league chat/trade block this run (Chrome down) — do that first next run.
+- **Roster:** Confirmed via `/rosters` diff — Hunter (12530) now rostered, Cousins (1166)/C.Kirk (4950) gone from bench, Rattler (11562) gone from taxi (taxi now just Baker, 2 of 3 slots open). Omar Cooper (13276) still not synced to `/rosters` — expected, syncs once the 3-round draft fully completes. `reserve: null`, FAAB $0 used. Roster cache (`cache/rainmannfl_roster.json`) and agents.md roster table both refreshed this run.
+- **Injuries:** Could not do the usual Chrome JS full-player-data fetch (Chrome down); `web_fetch` on the full players endpoint truncates badly (~84KB of a ~10MB file, unusable). Substituted WebSearch for key players: **Breece Hall has a groin strain** (news 2026-08-19) — expected to miss 2-3 weeks of camp but on track for the Sept 13 opener, not yet an actionable Week 1 concern; **Travis Hunter** camp recovery from Nov 2025 knee surgery is "going as expected" per Jaguars beat reporting, two-way role planned, WR snaps possibly limited early — monitor. No new injuries found on other core players via search. Full live injury-tag sweep (the usual 7-tag list) not possible this run — redo via Chrome JS fetch next run.
+- **NFL state:** Preseason, league status "drafting", `/matchups/1` empty (nothing to set), no waivers before Aug 26 cuts (7 days out).
+- **Next-run priority:** Chrome reconnect check FIRST. Then: (1) full DM/trade-tab/league-chat sweep (skipped this run), (2) confirm exact draft pick via live board, (3) full injury tag refresh via JS fetch, (4) consider taxi backfill once Cooper syncs to roster.
 
 ## Audit Trail (run logs)
 Per-run session notes live under `runs/<YYYY>/<MM>/<DD>/`, one file per run:

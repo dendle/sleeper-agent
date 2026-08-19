@@ -6,7 +6,7 @@
   "league_id": "1317862186214780928",
   "starters": [
     {"id": "4984", "name": "Josh Allen", "pos": "QB", "team": "BUF", "age": 30, "role": "QB1"},
-    {"id": "8155", "name": "Breece Hall", "pos": "RB", "team": "NYJ", "age": 25, "role": "RB1"},
+    {"id": "8155", "name": "Breece Hall", "pos": "RB", "team": "NYJ", "age": 25, "role": "RB1", "injury_status": "Questionable", "note": "Groin strain (news 2026-08-19 via web search) - expected to miss 2-3 wks of camp but on track for Week 1 (Sept 13 opener)"},
     {"id": "5892", "name": "David Montgomery", "pos": "RB", "team": "HOU", "age": 29, "role": "RB2"},
     {"id": "5947", "name": "Jakobi Meyers", "pos": "WR", "team": "JAX", "age": 29, "role": "WR1"},
     {"id": "6819", "name": "Michael Pittman", "pos": "WR", "team": "PIT", "age": 28, "role": "WR2", "injury_status": "Questionable"},
@@ -17,25 +17,23 @@
   ],
   "bench": [
     {"id": "8146", "name": "Garrett Wilson", "pos": "WR", "team": "NYJ", "age": 25, "note": "91% start%, should be starting over Meyers/Pittman"},
-    {"id": "13276", "name": "Omar Cooper", "pos": "WR", "team": "NYJ", "age": 22, "note": "Drafted 1.9 (2026-08-17 rookie draft). Not yet reflected in /rosters API (known lag). Recent news (2026-08-17): losing ground for early-season slot work behind Garrett Wilson/Isaiah Williams/Adonai Mitchell in preseason camp — dynasty stash, monitor depth chart."},
+    {"id": "13276", "name": "Omar Cooper", "pos": "WR", "team": "NYJ", "age": 22, "note": "Drafted 1.9 (2026-08-17 rookie draft). STILL not reflected in /rosters API as of 2026-08-19 (draft-pick rostering lag persists until full 3-round draft completes). Monitor depth chart behind Garrett Wilson/Isaiah Williams/Adonai Mitchell."},
+    {"id": "12530", "name": "Travis Hunter", "pos": "WR", "team": "JAX", "age": 23, "note": "ACQUIRED 2026-08-19 (Cousins+Rattler+C.Kirk trade w/ Revs1 processed ~09:22 UTC). Buy-low target per strategy - recovering from Nov 2025 knee surgery (torn ligaments), camp reports (2026-08-19 web search) say recovery 'going as expected', two-way role planned but WR snaps may be limited early season. Dynasty stash/upside, monitor camp reports and Week 1 role."},
     {"id": "11624", "name": "Xavier Worthy", "pos": "WR", "team": "KC", "age": 23, "injury_status": "Questionable"},
     {"id": "11579", "name": "Audric Estime", "pos": "RB", "team": "NO", "age": 22, "injury_status": "Questionable", "note": "depth 6, minimal value, drop candidate"},
     {"id": "12504", "name": "Kaleb Johnson", "pos": "RB", "team": "PIT", "age": 22},
     {"id": "12509", "name": "Tre' Harris", "pos": "WR", "team": "LAC", "age": 24},
-    {"id": "1166", "name": "Kirk Cousins", "pos": "QB", "team": "LV", "age": 37, "note": "Sell candidate - in Revs1/Hunter offer"},
-    {"id": "4950", "name": "Christian Kirk", "pos": "WR", "team": "SF", "age": 29, "injury_status": "Questionable"},
     {"id": "7049", "name": "Jauan Jennings", "pos": "WR", "team": "MIN", "age": 29},
     {"id": "8110", "name": "Jake Ferguson", "pos": "TE", "team": "DAL", "age": 27},
     {"id": "9754", "name": "Quentin Johnston", "pos": "WR", "team": "LAC", "age": 24},
     {"id": "9484", "name": "Tucker Kraft", "pos": "TE", "team": "GB", "age": 25, "injury_status": "Questionable"}
   ],
-  "_refreshed_2026_08_17_pm": "Draft pick 1.9 (Omar Cooper, WR-NYJ) made via browser draft board 2026-08-17 ~15:00. Not yet reflected in /league/rosters API (known lag - same pattern as picks endpoint lag). Rest of roster confirmed byte-for-byte unchanged via live /rosters fetch same run. 5 Questionable tags unchanged: Estime, Worthy, C. Kirk, Pittman, Kraft.",
+  "_refreshed_2026_08_19_run": "Hunter trade (Cousins+Rattler+C.Kirk -> Travis Hunter, w/ Revs1) CONFIRMED PROCESSED via /transactions/1 (transaction_id 1394349533852344320, status_updated 2026-08-19 09:22:50 UTC). Confirmed via /rosters diff: roster_id 10 now lacks 1166 (Cousins), 4950 (C.Kirk); taxi lost 11562 (Rattler); gained 12530 (Hunter, WR-JAX). Also a separate pick-only trade between roster 1/2/11 processed same morning (09:16 UTC) - unrelated to us. Omar Cooper (13276) still absent from /rosters API - expected lag, draft not yet complete. Chrome MCP was disconnected all of this run - could not verify via browser draft board / DMs / trade tab / lineup screenshots. Injury/news checked via WebSearch instead of live players endpoint (full players dump too large for web_fetch, ~10MB, truncates).",
   "taxi": [
-    {"id": "11562", "name": "Spencer Rattler", "pos": "QB", "team": "NO", "age": 25},
     {"id": "11645", "name": "Javon Baker", "pos": "WR", "team": null, "age": null}
   ],
   "reserve": [],
-  "strengths": ["QB (Josh Allen elite)", "TE (Brock Bowers rank 20 + Trey McBride)", "RB youth (Breece Hall, Javonte, Kaleb Johnson)"],
-  "weaknesses": ["Aging WRs (Meyers 29, Kirk 29, Jennings 29)", "RB depth (Montgomery 29 declining)", "Too many QBs on roster (4: Allen, Goff, Cousins, Rattler)"],
-  "draft_needs": ["WR youth", "RB youth", "NOT QB", "NOT TE"]
+  "strengths": ["QB (Josh Allen elite)", "TE (Brock Bowers rank 20 + Trey McBride)", "RB youth (Breece Hall, Javonte, Kaleb Johnson)", "New: Travis Hunter buy-low upside WR"],
+  "weaknesses": ["Aging WRs (Meyers 29, Jennings 29)", "RB depth (Montgomery 29 declining)", "Taxi down to 1 (2 open slots) - backfill from rookies once draft completes"],
+  "draft_needs": ["WR youth", "RB youth", "NOT QB (down to 2: Allen, Goff - fine, was surplus)", "NOT TE"]
 }
