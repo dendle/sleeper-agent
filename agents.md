@@ -86,7 +86,7 @@ To make a draft pick:
 | RB | Breece Hall (8155) | NYJ | 25 | RB1, elite. QUES — groin strain (news 2026-08-19), expected back for Sept 13 opener |
 | RB | David Montgomery (5892) | HOU | 29 | Aging, needs replacement |
 | WR | Jakobi Meyers (5947) | JAX | 29 | Aging, depth 3 at JAX |
-| WR | Michael Pittman (6819) | PIT | 28 | QUES preseason — monitor for Week 1 |
+| WR | Michael Pittman (6819) | PIT | 28 | Hamstring, QUES tag still on but news (2026-08-19 19:05) says expected ready for Week 1, no lingering concern |
 | TE | Trey McBride (8130) | ARI | 26 | Elite TE |
 | FLEX | Javonte Williams (7588) | DAL | 26 | Depth 1 at DAL — starting RB! |
 | FLEX | Brock Bowers (11604) | LV | 23 | Elite TE, moved to WRT starter (7th run) |
@@ -179,15 +179,15 @@ Harmless `warning: unable to unlink '.git/objects/xx/tmp_obj_...'` lines during 
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-19 18:02 UTC, 63rd automated run — quiet monitoring sweep, no action taken (nothing had changed since the 17:02 run)._
-- **Browser:** Chrome MCP connected fine. Full sweep done: draft board, DM inbox, league chat, trades tab, trade block.
-- **Draft:** Not our turn. Live board confirms **CMCPanthers still on the clock for 2.10** (2.9 Braelon Allen still shows correctly as our completed pick) — clock ticked down normally (~19:02 remaining, from ~20:02), no picks have advanced. ~10-11 picks away from 3.9 (2.10→2.12, then 3.1–3.8 linear, then us). Picks API/league metadata still stale — expected per known gotchas, browser board is ground truth. No urgency, no action.
-- **Trades:** Active Trades: 0, nothing pending on us. DM threads with Revs1/RexRocknut still unanswered, no change — per standing instruction, no nudge, left alone. Trade block unchanged (RexRocknut's Chase/Vele/Kamara listings etc., pursuit CLOSED, not re-approaching).
-- **Messages/chat:** No new DMs, no new @mentions, no new league chat content since the 17:02 run.
-- **Roster:** Braelon Allen (11576) and Omar Cooper (13276) still not confirmed synced to the roster API (known lag, syncs once the 3-round draft completes). `reserve: null`, taxi still just Baker (1/3 slots), FAAB $0 used.
-- **Injuries:** Full sweep via Chrome JS fetch (all rostered player IDs), cross-checked `news_updated` timestamps against the 17:02 cutoff — zero players had newer news, nothing to evaluate. Existing Questionables unchanged: Hall, Pittman, Worthy, Estime, Kraft, Q. Johnston. No IR moves needed.
+_As of: 2026-08-19 19:05 UTC, 64th automated run — quiet monitoring sweep, one informational injury update (Pittman), no action taken._
+- **Browser:** Chrome MCP connected fine. Full sweep done: draft board, DM inbox, league chat, trades tab, trade block, roster/team page.
+- **Draft:** Not our turn. Live board confirms **CMCPanthers still on the clock for 2.10** (2.9 Braelon Allen still shows correctly as our completed pick) — clock ticked down normally (18:02:12 remaining, from ~19:02), no picks have advanced. ~11 picks away from 3.9 (2.10→2.12, then 3.1–3.8 linear, then us). Picks API matched the board this run (21 picks recorded, consistent with 2.10 next) — still verify via browser when close per known gotcha. No urgency, no action.
+- **Trades:** Active Trades: 0, nothing pending on us. DM threads with Revs1/RexRocknut still unanswered, no change — per standing instruction, no nudge, left alone. Trade block unchanged (RexRocknut's Chase/Vele/Stevenson/Kamara, FukeLender/RexRocknut/Lurchh picks, FORDJTFC/DarrenA1/CMCPanthers listings). Chase pursuit CLOSED, not re-approaching.
+- **Messages/chat:** No new DMs, no new @mentions, no new league chat content since the 18:02 run.
+- **Roster:** Braelon Allen (11576) and Omar Cooper (13276) still not confirmed synced to the roster API or team page (known lag, syncs once the 3-round draft completes). `reserve: null`, taxi still just Baker (1/3 slots), FAAB $0 used.
+- **Injuries:** Full sweep via Chrome JS fetch (all rostered player IDs), cross-checked `news_updated` timestamps against the 18:02 cutoff. **Michael Pittman Jr. (hamstring)** got a fresh, positive news update: expected ready for Week 1, no lingering concern (still tagged Questionable in Sleeper but reporting says it's a non-issue). All other existing Questionables unchanged: Hall, Worthy, Estime, Kraft, Q. Johnston. No IR moves needed.
 - **NFL state:** Preseason, league status "drafting", `/matchups/1` confirmed empty (nothing to set), no waivers before Aug 26 cuts (7 days out).
-- **Next-run priority:** (1) Check if Cooper/Allen have synced to `/rosters` yet — backfill taxi (2 of 3 slots open) if so. (2) Continue routine DM/trade/injury/lineup sweep. (3) Watch draft board for 3.9 approaching (~10-11 picks out) — no fixed target list, evaluate live.
+- **Next-run priority:** (1) Check if Cooper/Allen have synced to `/rosters` yet — backfill taxi (2 of 3 slots open) if so. (2) Continue routine DM/trade/injury/lineup sweep. (3) Watch draft board for 3.9 approaching (~11 picks out) — no fixed target list, evaluate live.
 
 ## Audit Trail (run logs)
 Per-run session notes live under `runs/<YYYY>/<MM>/<DD>/`, one file per run:

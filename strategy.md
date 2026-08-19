@@ -1,6 +1,6 @@
 # Team Strategy — rainmannfl (Dog Tits)
 
-**Last updated: 2026-08-19 13:05** (Pick 2.9 made — Braelon Allen)
+**Last updated: 2026-08-19 19:05** (Pittman hamstring update — expected ready Week 1, no lineup change needed)
 
 > This file always reflects the CURRENT strategy only. No history, no stale plans — old strategy lives in the run logs under `runs/`. Overwrite sections in place when the strategy changes and bump the date above.
 
@@ -10,7 +10,7 @@
 - **Trades: Hunter deal PROCESSED 2026-08-19 ~09:22 UTC.** Cousins + Rattler + C. Kirk → Travis Hunter (WR-JAX) with Revs1 is complete. Roster now has Hunter, no longer has Cousins/Rattler/C.Kirk; taxi lost Rattler (down to 1/3 slots used — Baker only, 2 open, backfill from rookie picks once draft completes); QB depth now 2 (Allen/Goff — fine, was surplus). Hunter is recovering from a Nov 2025 knee surgery; camp reports as of 2026-08-19 say recovery "going as expected" with a two-way (WR/CB) role planned but WR snaps possibly limited early — monitor, no action needed yet. Remaining sell candidates: Jake Ferguson (TE4), Jauan Jennings (aging bench WR).
 - **Every trade goes through the KTC calculator** (Superflex, adjusted verdict) — never raw value sums. Accept within ~10% fair in our favor; flag core-starter deals for Matt instead of deciding.
 - **FAAB: hold all $100 until after Aug 26 roster cuts**, then spend on clear upgrades over worst bench players.
-- **Lineup for Week 1:** Garrett Wilson (91% start) must start — swap him in over Pittman if Pittman is still QUES, otherwise over Meyers. Watch Breece Hall (groin strain, news 2026-08-19 — expected back for Sept 13 opener, not yet a Week 1 concern).
+- **Lineup for Week 1:** Garrett Wilson (91% start) must start — swap him in over Meyers. Pittman (hamstring) now reported expected ready for Week 1 with no lingering concern (2026-08-19 19:05 update) — the earlier QUES-driven swap-out plan is no longer needed unless his tag changes again. Watch Breece Hall (groin strain, news 2026-08-19 — expected back for Sept 13 opener, not yet a Week 1 concern).
 
 ## Team identity & window
 Superflex PPR dynasty, 12-team. Strengths: elite QB room (Allen + Goff covers both QB-capable slots), elite TE room (McBride + Bowers both startable), RB1 (Hall), WR1-quality depth (Wilson). Weaknesses: aging WR corps behind Wilson (Meyers 29, Kirk, Jennings), aging RB2 (Montgomery 29), thin young depth. Verdict: this is a contender whose supporting cast ages out in 1–2 seasons — every move should either help now at no future cost, or swap aging/surplus pieces for players aged ≤25.
