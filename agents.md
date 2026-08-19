@@ -179,13 +179,13 @@ Harmless `warning: unable to unlink '.git/objects/xx/tmp_obj_...'` lines during 
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-19 20:06 UTC, 65th automated run — fully quiet monitoring sweep, zero new items, no action taken._
+_As of: 2026-08-19 21:03 UTC, 66th automated run — quiet monitoring sweep, one Kraft recovery news item (no action), no other changes._
 - **Browser:** Chrome MCP connected fine. Full sweep done: draft board, DM inbox, league chat, trades tab, trade block, roster sync, injuries, matchups.
-- **Draft:** Not our turn. Live board confirms **CMCPanthers still on the clock for 2.10** (2.9 Braelon Allen still shows correctly as our completed pick) — clock ticked down normally (17:02:10 remaining, from ~18:02 at the 19:05 run), no picks have advanced. ~11 picks away from 3.9 (2.10→2.12, then 3.1–3.8 linear, then us). No urgency, no action.
+- **Draft:** Not our turn. Live board confirms **CMCPanthers still on the clock for 2.10** (2.9 Braelon Allen still shows correctly as our completed pick) — clock ticking normally (18:02:45 remaining), no picks have advanced since 2.9. ~11 picks away from 3.9 (2.10→2.12, then 3.1–3.8 linear, then us). No urgency, no action.
 - **Trades:** Active Trades: 0, nothing pending on us. DM threads with Revs1/RexRocknut still unanswered, no change — per standing instruction, no nudge, left alone. Trade block unchanged (RexRocknut's Chase/Vele/Stevenson/Kamara + 1.03 pick, FukeLender's 1.11, Lurchh's 1.07, DarrenA1's Likely/Golden, CMCPanthers' Rice/Hockenson, FORDJTFC's Allgeier/Dowdle/Neal/D.Jones). Chase pursuit CLOSED, not re-approaching.
-- **Messages/chat:** No new DMs. One new league chat line since 19:05 — jiedunbar's routine "@CMCPanthers OTC" ping, not directed at us, no action.
+- **Messages/chat:** No new DMs. New league chat since 20:06: Revs1 dropped two free agents (Jerry Jeudy, Chris Brooks) — not directed at us, no action.
 - **Roster:** Braelon Allen (11576) and Omar Cooper (13276) still not confirmed synced to the roster API (known lag, syncs once the 3-round draft completes). `reserve: null`, taxi still just Baker (1/3 slots), FAAB $0 used.
-- **Injuries:** Full sweep via Chrome JS fetch (all rostered player IDs), cross-checked `news_updated` timestamps against the 19:05 cutoff — **zero players with news updates this run.** Questionables unchanged: Pittman, Hall, Worthy, Estime, Kraft, Q. Johnston. No IR moves needed.
+- **Injuries:** Full sweep via Chrome JS fetch (all rostered player IDs), cross-checked `news_updated` against the 20:06 cutoff — one item: **Tucker Kraft** (bench TE) back in full team drills, trending Week 1 return, reps likely capped to ~midseason — still Questionable, no status change, noted in strategy.md sell-list timing only. All other Questionables unchanged: Pittman, Hall, Worthy, Estime, Q. Johnston. No IR moves needed.
 - **NFL state:** Preseason, league status "drafting", `/matchups/1` confirmed empty (nothing to set), no waivers before Aug 26 cuts (7 days out).
 - **Next-run priority:** (1) Check if Cooper/Allen have synced to `/rosters` yet — backfill taxi (2 of 3 slots open) if so. (2) Continue routine DM/trade/injury/lineup sweep. (3) Watch draft board for 3.9 approaching (~11 picks out) — no fixed target list, evaluate live.
 

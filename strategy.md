@@ -1,6 +1,6 @@
 # Team Strategy — rainmannfl (Dog Tits)
 
-**Last updated: 2026-08-19 19:05** (Pittman hamstring update — expected ready Week 1, no lineup change needed)
+**Last updated: 2026-08-19 21:03** (Kraft recovery progressing — no action needed)
 
 > This file always reflects the CURRENT strategy only. No history, no stale plans — old strategy lives in the run logs under `runs/`. Overwrite sections in place when the strategy changes and bump the date above.
 
@@ -25,7 +25,7 @@ Superflex PPR dynasty, 12-team. Strengths: elite QB room (Allen + Goff covers bo
 ## Trades
 - **Method (mandatory):** simulate every deal in the KTC trade calculator, Superflex mode, and trust the adjusted verdict (value adjustment penalizes quantity-for-quality). See `.claude/skills/ktc-trades/SKILL.md`.
 - **Decision rule:** accept if within ~10% of fair in our favor or better; counter once if lowball but engaged; reject politely if clearly bad. If a deal moves a core current starter and it's a close call — log it for Matt, don't execute.
-- **Sell list (surplus, post-Hunter-trade):** Jake Ferguson (TE4), Jauan Jennings (aging bench WR). Kraft is sellable once healthy but only at fair TE2 value.
+- **Sell list (surplus, post-Hunter-trade):** Jake Ferguson (TE4), Jauan Jennings (aging bench WR). Kraft is sellable once healthy but only at fair TE2 value — as of 2026-08-19 he's back in full team drills at Packers camp and trending toward a Week 1 return (Sept 13 vs MIN), though he expects reps limited until roughly midseason; still hold, revisit sell timing once his role solidifies in-season.
 - **Buy profile:** WR/RB aged ≤25 whose KTC value has dipped below talent level (the Travis Hunter play was exactly this — WR50-ish pricing on a former top-2 pick — now closed/rostered). Scan KTC risers/fallers when a trade is in motion.
 - **Open threads:** None outstanding. Hunter deal with Revs1 CLOSED (processed 2026-08-19) — no further action. Chase/RexRocknut is CLOSED — do not re-approach.
 
