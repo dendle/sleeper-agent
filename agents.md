@@ -179,14 +179,14 @@ Harmless `warning: unable to unlink '.git/objects/xx/tmp_obj_...'` lines during 
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-19 22:02 UTC, 67th automated run — fully quiet monitoring sweep, nothing changed since 21:03._
+_As of: 2026-08-19 23:02 UTC, 68th automated run — fully quiet monitoring sweep, nothing changed since 22:02._
 - **Browser:** Chrome MCP connected fine. Full sweep done: draft board, DM inbox, league chat, trades tab, trade block, roster sync, injuries, matchups.
-- **Draft:** Not our turn. Live board confirms **CMCPanthers still on the clock for 2.10** (2.9 Braelon Allen still shows correctly as our completed pick) — clock ticking normally (15:02:37 remaining), no picks have advanced since 2.9. Note: league object's `on_the_clock_user_id`/`current_pick_no` field showed our own user ID this run — confirmed stale (known gotcha, refers to our already-completed pick 21/2.9), browser board is ground truth. ~11 picks away from 3.9. No urgency, no action.
-- **Trades:** Active Trades: 0, nothing pending on us. DM threads with Revs1/RexRocknut still unanswered, no change — per standing instruction, no nudge, left alone. Trade block unchanged (RexRocknut's Chase/Vele/Stevenson/Kamara + 1.03 pick, FukeLender's 1.11, Lurchh's 1.07, DarrenA1's M. Golden, CMCPanthers' Rice/Hockenson, FORDJTFC's Allgeier/Dowdle/D.Jones). Chase pursuit CLOSED, not re-approaching. Noted an unrelated completed 2nd-rd pick swap between FORDJTFC/Revs1 — doesn't involve us.
+- **Draft:** Not our turn. Live board confirms **CMCPanthers still on the clock for 2.10** (2.9 Braelon Allen still shows correctly as our completed pick) — clock ticking normally (14:02:41 remaining), no picks have advanced since 2.9. ~11 picks away from 3.9. No urgency, no action.
+- **Trades:** Active Trades: 0, nothing pending on us. DM threads with Revs1/RexRocknut still unanswered, no change — per standing instruction, no nudge, left alone. Trade block unchanged (RexRocknut's Chase/Vele/Stevenson/Kamara + 1.03 pick, FukeLender's 1.11, Lurchh's 1.07, DarrenA1's M. Golden, CMCPanthers' Rice/Hockenson, FORDJTFC's Allgeier/Dowdle/D.Jones). Chase pursuit CLOSED, not re-approaching.
 - **Messages/chat:** No new DMs, no new league chat since last run.
 - **Roster:** Braelon Allen (11576) and Omar Cooper (13276) still not confirmed synced to the roster API (known lag, syncs once the 3-round draft completes). `reserve: null`, taxi still just Baker (1/3 slots), FAAB $0 used.
-- **Injuries:** Full sweep via Chrome JS fetch (all 22 rostered player IDs), cross-checked `news_updated` against the 21:03 cutoff — **zero new items**. All Questionables unchanged: Pittman, Hall, Worthy, Estime, Q. Johnston, Kraft. No IR moves needed.
-- **NFL state:** Preseason, league status "drafting", `/matchups/1` confirmed empty (nothing to set), no waivers before Aug 26 cuts (6-7 days out).
+- **Injuries:** Full sweep via Chrome JS fetch (all 22 rostered player IDs), cross-checked `news_updated` against the 22:02 cutoff — **zero new items**. No IR moves needed.
+- **NFL state:** Preseason, league status "drafting", `/matchups/1` confirmed empty (nothing to set), no waivers before Aug 26 cuts (6 days out).
 - **Next-run priority:** (1) Check if Cooper/Allen have synced to `/rosters` yet — backfill taxi (2 of 3 slots open) if so. (2) Continue routine DM/trade/injury/lineup sweep. (3) Watch draft board for 3.9 approaching (~11 picks out) — no fixed target list, evaluate live.
 
 ## Audit Trail (run logs)
