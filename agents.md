@@ -179,15 +179,15 @@ Harmless `warning: unable to unlink '.git/objects/xx/tmp_obj_...'` lines during 
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-20 02:04 UTC, 71st automated run — quiet monitoring sweep, no action needed._
-- **Browser:** Chrome MCP connected fine (league-chat URL went blank again on first two navigate attempts, resolved by reloading via the league home page — recurring quirk, same workaround each time). Full sweep done: draft board, DM inbox, league chat, trades tab (scrolled full trade block), roster sync, injuries, matchups.
-- **Draft:** Not our turn. Live board + draft chat confirm **CMCPanthers still on the clock for 2.10** (timer running, 11:02:37 remaining; 2.9 Braelon Allen still shows as our completed pick, "13 hours ago" in draft chat) — no picks have advanced since 2.9. ~11 picks away from 3.9. No urgency, no action.
-- **Trades:** Active Trades: 0, nothing pending on us. DM threads with Revs1/RexRocknut still unanswered (4d), no change — per standing instruction, no nudge, left alone. Trade block: same as before (RexRocknut's Chase/Vele/Stevenson/Kamara + 1.03 pick, FukeLender's 1.11, Lurchh's 1.07, DarrenA1's M. Golden, CMCPanthers' Rice/Hockenson, FORDJTFC's Allgeier/Dowdle/D.Jones) **plus one new listing: DarrenA1 added Isaiah Likely (TE)** — doesn't fit our buy profile (TE overstocked), no action. Chase pursuit CLOSED, not re-approaching.
+_As of: 2026-08-20 04:02 UTC, 73rd automated run — quiet monitoring sweep, no action needed._
+- **Browser:** Chrome MCP connected fine, no quirks this run. Full sweep done: draft board, DM inbox, league chat, trades tab, roster sync, injuries, matchups.
+- **Draft:** Not our turn. Live board + draft chat confirm **CMCPanthers still on the clock for 2.10** (timer running, ~09:02:45 remaining; 2.9 Braelon Allen still shows as our completed pick, ~15h ago in draft chat) — no picks have advanced since 2.9. No urgency, no action.
+- **Trades:** Active Trades: 0, nothing pending on us. DM threads with Revs1/RexRocknut still unanswered (4d), no change — per standing instruction, no nudge, left alone. Trade block unchanged: RexRocknut's Chase/Vele/Stevenson/Kamara + 1.03 pick, FukeLender's 1.11, DarrenA1's M. Golden + Isaiah Likely (TE), CMCPanthers' Rice/Hockenson, FORDJTFC's Allgeier/Dowdle/D.Jones/Neal — none fit our buy profile. Chase pursuit CLOSED, not re-approaching.
 - **Messages/chat:** No new DMs, no new league chat, no new @mentions since last run.
 - **Roster:** Braelon Allen (11576) and Omar Cooper (13276) still not confirmed synced to the roster API (known lag, syncs once the 3-round draft completes). `reserve: null`, taxi still just Baker (1/3 slots), FAAB $0 used.
-- **Injuries:** Full sweep via Chrome JS fetch (all 22 rostered player IDs), cross-checked `news_updated` against the 01:04 cutoff — zero results, no news updates on any rostered player since last run. No IR moves needed.
+- **Injuries:** Full sweep via Chrome JS fetch (all 22 rostered player IDs), cross-checked `news_updated` against the 03:04 cutoff — zero news updates. Current Questionable list unchanged: Estime, Worthy, Pittman, Hall, Kraft, Q. Johnston. No IR moves needed.
 - **NFL state:** Preseason, league status "drafting", `/matchups/1` confirmed empty (nothing to set), no waivers before Aug 26 cuts (6 days out).
-- **Next-run priority:** (1) Check if Cooper/Allen have synced to `/rosters` yet — backfill taxi (2 of 3 slots open) if so. (2) Continue routine DM/trade/injury/lineup sweep. (3) Watch draft board for 3.9 approaching (~11 picks out) — no fixed target list, evaluate live.
+- **Next-run priority:** (1) Check if Cooper/Allen have synced to `/rosters` yet — backfill taxi (2 of 3 slots open) if so. (2) Continue routine DM/trade/injury/lineup sweep. (3) Watch draft board for 3.9 approaching — no fixed target list, evaluate live.
 
 ## Audit Trail (run logs)
 Per-run session notes live under `runs/<YYYY>/<MM>/<DD>/`, one file per run:
