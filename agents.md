@@ -179,15 +179,15 @@ Harmless `warning: unable to unlink '.git/objects/xx/tmp_obj_...'` lines during 
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-20 17:01 BST (16:01 UTC), 85th automated run — quiet monitoring sweep, no action needed._
-- **Browser:** Chrome MCP stable (one transient "not connected" blip mid-run, resolved on retry). Draft board, inbox @mentions, DMs, trades tab + league chat panel, roster sync, injuries, matchups/NFL state all checked.
-- **Draft:** Not our turn. **antsinpants still on the clock for 2.12** — confirmed same pick still in progress (timer ticking down normally, no new pick made since last run). 2.9 Braelon Allen still our last completed pick. 9 picks away from 3.9 (2.12, then 3.1–3.8). No urgency, no action.
+_As of: 2026-08-20 18:01 BST (17:00 UTC), 86th automated run — quiet monitoring sweep, no action needed._
+- **Browser:** Chrome MCP stable. Draft board, DMs, trades tab + league chat panel, roster sync, injuries, matchups/NFL state all checked.
+- **Draft:** Not our turn. **Round 2 complete** (2.12 Carson Beck to antsinpants). **Round 3 underway**, Kimish on the clock for 3.2. 2.9 Braelon Allen still our last completed pick. **7 picks away from 3.9** (3.2–3.8, then us) — down from 9 last run. No urgency, no action.
 - **Trades:** Active Trades: 0, nothing pending on us. DM threads with Revs1 (5d)/RexRocknut (5d) still unanswered, no change — per standing instruction, no nudge, left alone. Trade block unchanged: RexRocknut's Chase/Vele/Stevenson/Kamara + 1.03 (CLOSED, not re-approaching), FukeLender's 1.11, Lurchh's 1.07, DarrenA1's Isaiah Likely (TE) + Malik Golden (WR), CMCPanthers' Rashee Rice (WR), FORDJTFC's Allgeier/Dowdle/Neal (RB) + D. Jones (QB) + T.J. Hockenson (TE) — none fit our buy profile or are pre-identified targets, no unsolicited pitch sent.
-- **Messages/chat:** No new DMs, no new @mentions, no new league chat since last run.
+- **Messages/chat:** No new DMs, no new @mentions. League chat had Revs1 free-agent roster churn (dropped Jeudy/Brooks/Wright/Rattler) — not relevant to us, no action.
 - **Roster:** Braelon Allen (11576) and Omar Cooper (13276) still not confirmed synced to the roster API (known lag, syncs once the 3-round draft completes). `reserve: null`, taxi still just Baker (1/3 slots), FAAB $0 used.
-- **Injuries:** Full sweep via Chrome JS fetch (all 22 rostered player IDs), sorted by `news_updated` — newest is still Kaleb Johnson (12504) at the exact same timestamp as last run (no new injury news at all this run). Current Questionable list unchanged: Estime, Pittman, Kraft. No IR moves needed.
+- **Injuries:** Full sweep via Chrome JS fetch (all 22 rostered player IDs), sorted by `news_updated` — newest is Jared Goff (3163), but confirmed via web search it's routine non-injury preseason/sponsorship news (no `injury_status` set), not actionable. Current Questionable list unchanged: Estime, Pittman, Kraft. No IR moves needed.
 - **NFL state:** Confirmed via `/state/nfl`: preseason, week 2, season_type "pre". `/matchups/2` empty — nothing to set. No waivers before Aug 26 cuts (6 days out).
-- **Next-run priority:** (1) antsinpants still on the clock for 2.12 — check for progression toward our 3.9 (9 picks away). (2) Check if Cooper/Allen have synced to `/rosters` yet — backfill taxi (2 of 3 slots open) if so. (3) Re-check `/matchups/2`. (4) Continue routine DM/trade/injury sweep. (5) Watch draft board for 3.9 approaching — no fixed target list, evaluate live.
+- **Next-run priority:** (1) Kimish on the clock for 3.2 — check progression toward our 3.9 (7 picks away). (2) Check if Cooper/Allen have synced to `/rosters` yet — backfill taxi (2 of 3 slots open) if so. (3) Re-check `/matchups/2`. (4) Continue routine DM/trade/injury sweep. (5) Watch draft board for 3.9 approaching — no fixed target list, evaluate live.
 
 ## Audit Trail (run logs)
 Per-run session notes live under `runs/<YYYY>/<MM>/<DD>/`, one file per run:
