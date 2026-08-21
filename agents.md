@@ -179,15 +179,15 @@ Harmless `warning: unable to unlink '.git/objects/xx/tmp_obj_...'` lines during 
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-20 22:01 BST (21:01 UTC), 90th automated run — quiet monitoring sweep, no action needed._
+_As of: 2026-08-21 09:06 BST (08:06 UTC), 91st automated run — quiet monitoring sweep, no action needed._
 - **Browser:** Chrome MCP stable. Draft board, inbox/DMs, trades tab + league chat, roster sync, injuries, NFL state all checked.
-- **Draft:** Not our turn. **Round 3 underway** — 3.2 (T. Hurst, WR-TB) landed since last run. **FORDJTFC now on the clock for 3.3** (traded pick from RexRocknut's slot, fresh ~24h timer). 2.9 Braelon Allen still our last completed pick. **Now 6 picks away from 3.9** (3.3–3.8, then us), down from 7 last run. No urgency, no action.
+- **Draft:** Not our turn. **Still Round 3** — 3.2 (T. Hurst, WR-TB) remains the last landed pick, no new picks since last run. **FORDJTFC still on the clock for 3.3** (traded pick from RexRocknut's slot, timer down to 12:17:42 remaining — same pick, clock just ticking). 2.9 Braelon Allen still our last completed pick. **Still 6 picks away from 3.9**, unchanged from last run. No urgency, no action.
 - **Trades:** Active Trades: 0, nothing pending on us. DM threads with Revs1 (5d)/RexRocknut (5d) still unanswered, no change — per standing instruction, no nudge, left alone. Trade block unchanged: RexRocknut's Chase/Vele/Stevenson/Kamara + 1.03 (CLOSED, not re-approaching), FukeLender's 1.11, Lurchh's 1.07, DarrenA1's Isaiah Likely (TE) + Malik Golden (WR), CMCPanthers' Rashee Rice (WR) + T.J. Hockenson (TE), FORDJTFC's Allgeier/Dowdle/Neal (RB) + D. Jones (QB) — none fit our buy profile or are pre-identified targets, no unsolicited pitch sent.
-- **Messages/chat:** No new DMs, no new @mentions. League chat unchanged from last run (Revs1's routine FA drops already logged).
+- **Messages/chat:** No new DMs, no new @mentions. League chat unchanged in substance from last run (routine FA drops: Revs1 x3, FukeLender's Quinn Ewers pickup).
 - **Roster:** Braelon Allen (11576) and Omar Cooper (13276) still not confirmed synced to the roster API (known lag, syncs once the 3-round draft completes). `reserve: null`, taxi still just Baker (1/3 slots), FAAB $0 used.
-- **Injuries:** Chrome JS fetch (all 22 rostered player IDs incl. pending picks). Jared Goff (3163) got a newer news timestamp but `injury_status` still null/healthy — non-event. Questionable list unchanged in substance: Estime, Worthy, Pittman, Hall, Kraft (+ Q. Johnston, bench depth, immaterial). No Out/Doubtful/IR. No IR moves needed.
-- **NFL state:** Confirmed via `/state/nfl`: preseason, week 2, season_type "pre". No matchups exist yet — nothing to set. No waivers before Aug 26 cuts (6 days out).
-- **Next-run priority:** (1) FORDJTFC on the clock for 3.3 — check progression toward our 3.9 (6 picks away). (2) Check if Cooper/Allen have synced to `/rosters` yet — backfill taxi (2 of 3 slots open) if so. (3) Re-check matchups once week 1 begins. (4) Continue routine DM/trade/injury sweep. (5) Watch draft board for 3.9 approaching — no fixed target list, evaluate live.
+- **Injuries:** Chrome JS fetch (all 22 rostered player IDs incl. pending picks). Questionable list unchanged in substance: Estime, Worthy, Pittman, Hall, Kraft (+ Q. Johnston, bench depth, immaterial). No Out/Doubtful/IR. No IR moves needed.
+- **NFL state:** Confirmed via `/state/nfl`: preseason, week 2, season_type "pre". No matchups exist yet — nothing to set. No waivers before Aug 26 cuts (5 days out).
+- **Next-run priority:** (1) FORDJTFC still on the clock for 3.3 — check progression toward our 3.9 (6 picks away). (2) Check if Cooper/Allen have synced to `/rosters` yet — backfill taxi (2 of 3 slots open) if so. (3) Re-check matchups once week 1 begins. (4) Continue routine DM/trade/injury sweep. (5) Watch draft board for 3.9 approaching — no fixed target list, evaluate live.
 
 ## Audit Trail (run logs)
 Per-run session notes live under `runs/<YYYY>/<MM>/<DD>/`, one file per run:
