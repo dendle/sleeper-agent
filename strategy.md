@@ -1,12 +1,12 @@
 # Team Strategy — rainmannfl (Dog Tits)
 
-**Last updated: 2026-08-19 21:03** (Kraft recovery progressing — no action needed)
+**Last updated: 2026-08-21 21:35** (Draft complete — 3.9 took Jerry Jeudy)
 
 > This file always reflects the CURRENT strategy only. No history, no stale plans — old strategy lives in the run logs under `runs/`. Overwrite sections in place when the strategy changes and bump the date above.
 
 ## TLDR
 - **Window: contend now** — the core (Allen, Hall, McBride, Bowers, G. Wilson) is elite and in-prime. Don't rebuild; get younger at WR/RB around the core.
-- **Draft: Picks 1.9 and 2.9 DONE.** 1.9 took Omar Cooper (WR-NYJ). 2.9 took Braelon Allen (RB-NYJ) — direct backup to our own Breece Hall (who has a groin strain), plus a proven early-career producer, better depth-chart path than any rookie WR left on the board. Round 3 (pick 9) still to come — best available WR/RB by live board + landing spot when it arrives, no fixed target list (the confirmed board's 3 names are all gone). We are 11 picks from being on the clock again (3.9) as of 2026-08-19 13:05.
+- **Draft: COMPLETE (all 3 rounds done, 2026-08-21).** 1.9 Omar Cooper (WR-NYJ). 2.9 Braelon Allen (RB-NYJ) — direct backup to our own Breece Hall. 3.9 Jerry Jeudy (WR-CLE, age 27) — best value on the board by a clear margin (free agent dropped by Revs1, CLE WR1 depth chart slot, healthy) over the remaining buried rookie RBs; a lottery-ticket-value pick given round-3 supplemental draft depth. No more picks owed this draft (draft_rounds: 3). Nothing further to watch here.
 - **Trades: Hunter deal PROCESSED 2026-08-19 ~09:22 UTC.** Cousins + Rattler + C. Kirk → Travis Hunter (WR-JAX) with Revs1 is complete. Roster now has Hunter, no longer has Cousins/Rattler/C.Kirk; taxi lost Rattler (down to 1/3 slots used — Baker only, 2 open, backfill from rookie picks once draft completes); QB depth now 2 (Allen/Goff — fine, was surplus). Hunter is recovering from a Nov 2025 knee surgery; camp reports as of 2026-08-19 say recovery "going as expected" with a two-way (WR/CB) role planned but WR snaps possibly limited early — monitor, no action needed yet. Remaining sell candidates: Jake Ferguson (TE4), Jauan Jennings (aging bench WR).
 - **Every trade goes through the KTC calculator** (Superflex, adjusted verdict) — never raw value sums. Accept within ~10% fair in our favor; flag core-starter deals for Matt instead of deciding.
 - **FAAB: hold all $100 until after Aug 26 roster cuts**, then spend on clear upgrades over worst bench players.
@@ -15,12 +15,11 @@
 ## Team identity & window
 Superflex PPR dynasty, 12-team. Strengths: elite QB room (Allen + Goff covers both QB-capable slots), elite TE room (McBride + Bowers both startable), RB1 (Hall), WR1-quality depth (Wilson). Weaknesses: aging WR corps behind Wilson (Meyers 29, Kirk, Jennings), aging RB2 (Montgomery 29), thin young depth. Verdict: this is a contender whose supporting cast ages out in 1–2 seasons — every move should either help now at no future cost, or swap aging/surplus pieces for players aged ≤25.
 
-## Draft (2026 rookie/FA draft, in progress)
+## Draft (2026 rookie/FA draft) — COMPLETE
 - **Pick 1.9: DONE (2026-08-17).** Took Omar Cooper (WR-NYJ) — Lemon was gone (1.7, FORDJTFC), Cooper was still available at 1.9. Note: preseason camp news same day flagged him "losing ground for early-season work" behind Garrett Wilson/Isaiah Williams/Adonai Mitchell at NYJ — treat as a dynasty stash, not a Week 1 lock; monitor depth chart, no action needed now.
-- **Pick 2.9: DONE (2026-08-19).** Took Braelon Allen (RB-NYJ, id 11576). Confirmed board's 1.9 list (Lemon/Cooper/Stribling) was fully gone by our turn. Chose Allen over remaining rookie WRs (all buried WR3-5 on their depth charts) and other rookie RBs (Emmett Johnson KC-RB4, Mike Washington LV-RB2) because: (a) he's RB2 in NYJ's own backfield — direct handcuff/insurance for our Breece Hall, who has a groin strain; (b) he's a proven early-career producer (802 rookie-year yards) rather than an unproven 2026 rookie; (c) best Sleeper search_rank (135) among realistic non-QB/TE options. No KTC check needed for draft picks — that mandate is trades-only.
-- **Skip at any pick:** QB (5 rostered incl. taxi) and TE (4 rostered).
-- **Round 3 (pick 9, next up in ~11 picks):** best available WR or RB at the time, weight youth + NFL landing spot/depth-chart path over raw ADP — no fixed target list, the confirmed board is exhausted. Re-check the live board and KTC before the pick — do not trust the picks API (lags; browser board is ground truth).
-- **Pick trades:** we hold 3.9 remaining. No need to trade for more picks.
+- **Pick 2.9: DONE (2026-08-19).** Took Braelon Allen (RB-NYJ, id 11576). Chose Allen over remaining rookie WRs (all buried WR3-5) and other rookie RBs because: (a) RB2 in NYJ's own backfield — direct handcuff/insurance for our Breece Hall (groin strain); (b) proven early-career producer (802 rookie-year yards); (c) best Sleeper search_rank (135) among realistic non-QB/TE options.
+- **Pick 3.9: DONE (2026-08-21).** Took Jerry Jeudy (WR-CLE, id 6783, age 27). He's a free agent (dropped by Revs1 two days prior), not a rookie — best value on the board by a clear rank margin (rk160 vs. next-best rk165/176), full-time CLE WR1 depth-chart slot, healthy, ahead of the remaining buried rookie RBs (Claiborne/Randall/Gordon, all RB3+ on their depth charts). New CLE OC news is mixed (rookie Denzel Boston drawing praise) but not alarming — Jeudy still projects as a real target-earner. No KTC check needed for draft picks (trades-only mandate).
+- **Draft is now fully done** (draft_rounds: 3, all 3 picks made). Nothing further to track here — remove this section's "next up" framing; no more picks owed.
 
 ## Trades
 - **Method (mandatory):** simulate every deal in the KTC trade calculator, Superflex mode, and trust the adjusted verdict (value adjustment penalizes quantity-for-quality). See `.claude/skills/ktc-trades/SKILL.md`.

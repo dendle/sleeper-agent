@@ -1,15 +1,16 @@
 {
-  "as_of": "2026-08-19T13:05:00Z",
+  "as_of": "2026-08-21T21:35:00Z",
   "roster_id": 10,
   "owner_id": "1160282581892685824",
-  "note": "Braelon Allen (11576) drafted at pick 2.9 (2026-08-19) but not yet synced to this API endpoint - known lag, draft picks land on roster once the 3-round draft completes. Same for Omar Cooper (13276, drafted 1.9).",
+  "note": "Draft complete (3 rounds, 2026-08-21): Omar Cooper (13276, 1.9), Braelon Allen (11576, 2.9), Jerry Jeudy (6783, 3.9) all drafted but not yet synced to this API endpoint - known lag, syncs once fully processed.",
   "players_synced": ["11579","11604","11624","11645","12504","12509","12530","3163","4984","5892","5947","6819","7049","7588","8110","8130","8146","8155","9484","9754"],
   "starters": ["4984","8155","5892","5947","6819","8130","7588","11604","3163"],
   "reserve": null,
   "taxi": ["11645"],
   "pending_draft_picks_not_yet_synced": [
     {"player_id": "13276", "name": "Omar Cooper", "pos": "WR", "team": "NYJ", "pick": "1.9", "date": "2026-08-17"},
-    {"player_id": "11576", "name": "Braelon Allen", "pos": "RB", "team": "NYJ", "pick": "2.9", "date": "2026-08-19"}
+    {"player_id": "11576", "name": "Braelon Allen", "pos": "RB", "team": "NYJ", "pick": "2.9", "date": "2026-08-19"},
+    {"player_id": "6783", "name": "Jerry Jeudy", "pos": "WR", "team": "CLE", "pick": "3.9", "date": "2026-08-21"}
   ],
   "waiver_budget_used": 0,
   "waiver_position": 8

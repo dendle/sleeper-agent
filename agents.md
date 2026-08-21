@@ -77,7 +77,7 @@ To make a draft pick:
 
 **IMPORTANT:** Sleeper draft picks CANNOT be made via REST API. Must use browser automation.
 
-## rainmannfl Roster Summary (updated 2026-08-19 13:05, confirmed live — Hunter trade processed, pick 2.9 made)
+## rainmannfl Roster Summary (updated 2026-08-21 21:35, confirmed live — draft complete, pick 3.9 made)
 
 ### Starters (current)
 | Pos | Player | Team | Age | Notes |
@@ -92,9 +92,10 @@ To make a draft pick:
 | FLEX | Brock Bowers (11604) | LV | 23 | Elite TE, moved to WRT starter (7th run) |
 | SF | Jared Goff (3163) | DET | 31 | Good SF option |
 
-### Bench (11 players synced + 2 pending draft-pick sync — Cousins/Rattler/C.Kirk traded away, Hunter added, 2026-08-19; Omar Cooper + Braelon Allen not yet synced to /rosters API — known lag)
-- **Braelon Allen** (RB, NYJ, id 11576) — drafted 2.9 (2026-08-19). RB2 behind our own Breece Hall (direct handcuff/insurance given Hall's groin strain), age 22, proven producer (802 rookie-yr yards 2024). Not yet synced to /rosters API — expected, syncs once the 3-round draft fully completes.
-- **Omar Cooper** (WR, NYJ, id 13276) — drafted 1.9 (2026-08-17 rookie draft), rank 107. Camp news: losing ground for early-season slot work behind G. Wilson/Isaiah Williams/Adonai Mitchell — dynasty stash, monitor depth chart, no action needed. Still absent from /rosters API as of 2026-08-19 — expected, syncs once the 3-round draft fully completes.
+### Bench (11 players synced + 3 pending draft-pick sync — draft now COMPLETE as of 2026-08-21; Omar Cooper, Braelon Allen, Jerry Jeudy not yet synced to /rosters API — known lag)
+- **Jerry Jeudy** (WR, CLE, id 6783) — drafted 3.9 (2026-08-21). Age 27, free agent (dropped by Revs1 2 days prior), CLE WR1 depth-chart slot, healthy. Best value on board by a clear margin over remaining buried rookie RBs. New OC plans to use him "more creatively" though rookie Denzel Boston is drawing praise on the perimeter — monitor role, no action needed yet. Not yet synced to /rosters API.
+- **Braelon Allen** (RB, NYJ, id 11576) — drafted 2.9 (2026-08-19). RB2 behind our own Breece Hall (direct handcuff/insurance given Hall's groin strain), age 22, proven producer (802 rookie-yr yards 2024). Not yet synced to /rosters API — expected, syncs once the draft fully processes.
+- **Omar Cooper** (WR, NYJ, id 13276) — drafted 1.9 (2026-08-17 rookie draft), rank 107. Camp news: losing ground for early-season slot work behind G. Wilson/Isaiah Williams/Adonai Mitchell — dynasty stash, monitor depth chart, no action needed. Still absent from /rosters API — expected, syncs once the draft fully processes.
 - **Travis Hunter** (WR, JAX, id 12530) — ACQUIRED 2026-08-19 via trade w/ Revs1 (sent Cousins+Rattler+C.Kirk). Buy-low ex-top-2 pick, recovering from Nov 2025 knee surgery; camp reports (2026-08-19) say recovery "going as expected," two-way WR/CB role planned, WR snaps possibly limited early season — monitor camp/Week 1 role.
 - **Garrett Wilson** (WR, NYJ, id 8146) — elite WR depth 1, 91% start%, bench behind Pittman/Meyers; swap in if Pittman remains QUES for Week 1
 - **Xavier Worthy** (WR, KC, id 11624) — QUES preseason, depth 2
@@ -119,14 +120,17 @@ To make a draft pick:
 3. **NOT QB** — have Allen, Goff, Cousins, Rattler (4 QBs now, after O'Connell dropped)
 4. **NOT TE** — have Bowers (rank 20!), McBride, Kraft, Ferguson — overstacked at TE
 
-## 2026 Draft Strategy
+## 2026 Draft Strategy — COMPLETE (all 3 rounds done, 2026-08-21)
 
 ### Draft Slot: Pick 9 of 12 (Rounds 1, 2, 3)
 
 ### Round 1 (Pick 9) — DONE (2026-08-17): took Omar Cooper (WR-NYJ). Board through 1.9: 1.1 Love, 1.2 Tate, 1.3 Tyson, 1.4 Mendoza, 1.5 Concepcion, 1.6 Price, 1.7 Lemon (FORDJTFC), 1.8 Branch (FORDJTFC, traded 2nd pick), **1.9 Cooper (us)**.
 
-### Round 2 (Pick 9) — DONE (2026-08-19): took Braelon Allen (RB-NYJ) — RB2 behind our own Breece Hall, proven producer, better landing spot than any rookie WR/RB left on the board. **This is a LINEAR draft, not snake** — confirmed via live board: round 2 order is identical to round 1 (2.1 Revs1 → 2.2 Kimish → ... → 2.9 rainmannfl → 2.12 antsinpants), round 3 follows the same pattern. Do not assume snake reversal.
-### Round 3 (Pick 9) — Target: best available WR or RB at the time, no fixed list — re-check live board + KTC before acting. Same linear order as round 2 (3.1 starts at Revs1, works down to us at 3.9). ~11 picks away as of 2026-08-19 13:05.
+### Round 2 (Pick 9) — DONE (2026-08-19): took Braelon Allen (RB-NYJ) — RB2 behind our own Breece Hall, proven producer, better landing spot than any rookie WR/RB left on the board. **This is a LINEAR draft, not snake** — confirmed via live board: round 2 order is identical to round 1 (2.1 Revs1 → 2.2 Kimish → ... → 2.9 rainmannfl → 2.12 antsinpants), round 3 follows the same pattern.
+
+### Round 3 (Pick 9) — DONE (2026-08-21): took Jerry Jeudy (WR-CLE, age 27) — a free agent (dropped by Revs1 2 days earlier, not a rookie), best value on the board by a clear margin, CLE WR1 depth-chart slot, healthy, ahead of remaining buried rookie RBs. Picks API lagged the live board by 6 picks this run (showed last pick as 3.2 when the board had already reached 3.8); browser board is ground truth as always.
+
+**Draft complete — no more picks owed (draft_rounds: 3). This whole section is now historical reference only.**
 
 ## Slot-to-Roster Mapping (draft order)
 | Slot | Roster ID | Manager |
@@ -179,14 +183,14 @@ Harmless `warning: unable to unlink '.git/objects/xx/tmp_obj_...'` lines during 
 - **Pick 1.9 board CONFIRMED by Matt (2026-08-16):** 1) Makai Lemon (WR-PHI), 2) Omar Cooper (WR-NYJ), 3) De'Zhaun Stribling (WR). Skip QB (Simpson/Mendoza-tier) and TE (Sadiq). Execute without further confirmation when 1.9 arrives.
 
 ## Current Status (snapshot — OVERWRITE this section each run, don't append)
-_As of: 2026-08-21 21:04 BST (20:04 UTC), 103rd automated run — quiet monitoring sweep, no action needed._
-- **Draft:** Not our turn. **Still Round 3** — 3.2 (T. Hurst, WR-TB) remains the last landed pick, no new picks since last run. **FORDJTFC still on the clock for 3.3** (traded pick from RexRocknut's slot, timer at 23:39/24h remaining — same pick, clock ticking down). 2.9 Braelon Allen still our last completed pick. **Still 6 picks away from 3.9**, unchanged from last run. No urgency, no action.
+_As of: 2026-08-21 21:35 BST (20:35 UTC), 104th automated run — **drafted pick 3.9 (Jerry Jeudy, WR-CLE), draft now COMPLETE**._
+- **Draft: COMPLETE.** All 3 rounds done: 1.9 Omar Cooper, 2.9 Braelon Allen, 3.9 Jerry Jeudy (WR-CLE, age 27 — free agent dropped by Revs1, best value on board, CLE WR1 depth slot, healthy; picked over remaining buried rookie RBs). Picks API lagged live board by 6 picks this run (showed 3.2 as last pick when board was actually at 3.8) — browser board confirmed as ground truth per usual. No more picks owed. Draft-watch priority is now retired.
 - **Trades:** Active Trades: 0, nothing pending on us. DM threads with Revs1 (6d)/RexRocknut (6d) still unanswered, no change — per standing instruction, no nudge, left alone. Trade block unchanged: RexRocknut's Chase/Vele/Stevenson/Kamara + 1.03 (CLOSED, not re-approaching), FukeLender's 1.11, Lurchh's 1.07, DarrenA1's Isaiah Likely (TE) + Malik Golden (WR), CMCPanthers' Rashee Rice (WR) + T.J. Hockenson (TE), FORDJTFC's Allgeier/Dowdle/Neal (RB) + D. Jones (QB) — none fit our buy profile or are pre-identified targets, no unsolicited pitch sent.
-- **Messages/chat:** No new DMs, no new @mentions. League chat unchanged in substance from last run (jiedunbar's OTC comment, Revs1's FA drops, FukeLender's Quinn Ewers pickup — all previously seen).
-- **Roster:** Braelon Allen (11576) and Omar Cooper (13276) still not confirmed synced to the roster API (known lag, syncs once the 3-round draft completes). `reserve: null`, taxi still just Baker (1/3 slots), FAAB $0 used.
-- **Injuries:** Chrome JS fetch (all rostered player IDs incl. pending picks). Questionable list unchanged: Hall (Thigh), Pittman (Leg), Estime (Leg), Worthy (Shoulder), Kraft (Knee/ACL), Q. Johnston (Lower Body), Tre' Harris (Undisclosed). No Out/Doubtful/IR. No IR moves needed.
+- **Messages/chat:** No new DMs, no new @mentions. League chat transaction feed reviewed (Revs1 dropped Jeudy/Brooks/Wright/Rattler over the past 2 days, FukeLender added Quinn Ewers 15h ago) — all just background, nothing needing reply.
+- **Roster:** Omar Cooper (13276), Braelon Allen (11576), and Jerry Jeudy (6783) all not yet confirmed synced to the roster API (known lag, syncs once the draft fully processes). `reserve: null`, taxi still just Baker (1/3 slots), FAAB $0 used.
+- **Injuries:** Chrome JS fetch (all rostered player IDs incl. pending picks). Questionable list unchanged: Hall (Thigh), Pittman (Leg), Estime (Leg), Worthy (Shoulder), Kraft (Knee/ACL), Q. Johnston (Lower Body), Tre' Harris (Undisclosed). Jeudy: healthy. No Out/Doubtful/IR. No IR moves needed.
 - **NFL state:** `/matchups/2` empty — nothing to set (still preseason). No waivers before Aug 26 cuts (5 days out).
-- **Next-run priority:** (1) FORDJTFC still on the clock for 3.3 — check progression toward our 3.9 (6 picks away). (2) Check if Cooper/Allen have synced to `/rosters` yet — backfill taxi (2 of 3 slots open) if so. (3) Re-check matchups once week 1 begins. (4) Continue routine DM/trade/injury sweep. (5) Watch draft board for 3.9 approaching — no fixed target list, evaluate live. (6) Only 5 days to Aug 26 cuts — waivers become live soon.
+- **Next-run priority:** (1) Check if Cooper/Allen/Jeudy have synced to `/rosters` yet — backfill taxi (2 of 3 slots open) if so. (2) Re-check matchups once week 1 begins. (3) Continue routine DM/trade/injury sweep. (4) Only 5 days to Aug 26 cuts — waivers become live soon. (5) Draft is done — no more draft-board checks needed.
 
 ## Audit Trail (run logs)
 Per-run session notes live under `runs/<YYYY>/<MM>/<DD>/`, one file per run:

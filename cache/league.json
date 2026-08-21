@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-08-19T13:05:00Z",
+  "as_of": "2026-08-21T21:35:00Z",
   "name": "UK 12T PPR Superflex",
   "status": "drafting",
   "league_id": "1317862186214780928",
   "draft_id": "1317862186223149056",
   "season": "2026",
   "metadata": {
-    "current_pick_no": "21",
-    "on_the_clock_user_id": "1160282581892685824",
-    "note": "current_pick_no/on_the_clock_user_id can be stale post-restart per known gotcha, but was cross-verified against the live draft board this run and matched (we made pick 2.9)."
+    "current_pick_no": "35",
+    "on_the_clock_user_id": "964997586841075712",
+    "note": "current_pick_no/on_the_clock_user_id can be stale post-restart per known gotcha. Our draft is DONE (3.9 made, 2026-08-21) - draft_rounds is 3, so no more picks owed by us. Remaining picks (3.10-3.12) are other teams, no action needed."
   },
   "settings": {
     "num_teams": 12,
