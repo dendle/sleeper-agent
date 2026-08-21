@@ -1,0 +1,27 @@
+# Run log — 2026-08-21 19:04 BST (18:04 UTC) — Monitoring sweep
+
+## Draft
+- Picks API: still 25 total picks (last = 3.1 CPU autopick Chris Brazzell, IR status), confirmed lagging live board.
+- Live board (Chrome, screenshot verified): **3.2 = T. Hurst (WR-TB, Kimish)** landed. **3.3 still on the clock, FORDJTFC** (traded from RexRocknut's slot, timer at 02:23:37 remaining — down from last run's 03:23:45, same pick). Still **6 picks away from 3.9** (3.3 FORDJTFC → 3.4 cdavis2506 → 3.5 jiedunbar → 3.6 FORDJTFC → 3.7 FORDJTFC(from Lurchh) → 3.8 Revs1(from DarrenA1) → 3.9 us), unchanged. No urgency, no action.
+
+## Messages / DMs
+- Direct Messages: Revs1 still 6d, RexRocknut still 6d, FORDJTFC 2mo, Lurchh/SleeperHQ 11mo, DarrenA1 1y — all unchanged. No incoming replies, no nudges sent (per standing instruction).
+- Inbox @mentions: no new items beyond previously-seen DarrenA1 history.
+- League chat: no new activity — Quinn Ewers pickup (FukeLender, 12h ago) still the latest message, same as last run. jiedunbar's OTC comment and Revs1's FA drops all previously logged.
+
+## Trades
+- Active Trades: 0 confirmed via Trades tab, nothing pending on us.
+- Trade block unchanged: FukeLender 1.11, RexRocknut 1.03 + Chase/Vele/Stevenson/Kamara (CLOSED, not re-approaching), Lurchh 1.07, DarrenA1 Isaiah Likely (TE) + Malik Golden (WR), CMCPanthers Rashee Rice (WR)/T. Hockenson (TE), FORDJTFC Allgeier/Dowdle/Neal (RB) + D. Jones (QB). None fit our buy profile or are pre-identified targets — no unsolicited pitch sent.
+
+## Injuries / roster health
+- Fetched all rostered player IDs (incl. not-yet-synced Allen 11576/Cooper 13276) via Chrome JS against `/players/nfl`. Questionable list unchanged from last run: Hall (Thigh), Pittman (Leg), Estime (Leg), Worthy (Shoulder), Kraft (Knee/ACL), Q. Johnston (Lower Body), Tre' Harris (Undisclosed). No Out/Doubtful/IR statuses. No IR moves needed.
+
+## Lineup / Waivers
+- `/matchups/2` returns empty — no matchups exist yet, nothing to set (still preseason).
+- 5 days out from Aug 26 cuts — no waiver activity per standing plan.
+
+## Roster sync
+- Confirmed via `/rosters` API: Braelon Allen (11576) and Omar Cooper (13276) still not on roster (20 players listed for roster_id 10, unchanged). `reserve: null`, taxi still just Baker (11645), 1/3 slots. Expected until the 3-round draft completes.
+
+## Outcome
+No action taken. Quiet sweep — draft clock ticked down ~1hr further on the same pick (FORDJTFC's 3.3), no new picks landed, no messages needing reply, no trades, no injury status changes, no roster sync changes. Nothing to fold into strategy.md.
